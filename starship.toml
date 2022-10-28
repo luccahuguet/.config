@@ -8,22 +8,13 @@ $character
 """
 
 [fill]
-symbol = " "
+symbol = "_"
 
 [time]
 disabled = false
-style = "bold bright-black"
+style = "bold bright-red"
 format = "[$time]($style)"
-time_format = "%a, %b %d, %Y | %I:%M ️"
-
-[battery]
-full_symbol = "🔋"
-charging_symbol = "🔌"
-discharging_symbol = "⚡"
-
-[[battery.display]]
-threshold = 30
-style = "bold red"
+time_format = "%a, %b %d, %Y | %H:%M ️"
 
 [aws]
 format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
