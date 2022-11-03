@@ -515,25 +515,29 @@ let-env PATH = (
       $env.PATH |
       append '/nix/var/nix/profiles/default/bin' |
       append '/var/lib/flatpak/exports/bin' |
+      append '/usr/bin/' |
       append $'($env.HOME)/.nix-profile/bin' |
       append $'($env.HOME)/.cargo/bin' |
+      append $'($env.HOME)/.local/bin' |
       append $'($env.HOME)/.cargo/env' |
-      append $'($env.HOME)/UserInstalls/julia_1.8.2/bin'
+      append $'($env.HOME)/UserInstalls/julia-1.8.2/bin'
 )
+
+let-env EDITOR = "/home/lucca/.nix-profile/bin/hx"
 
 source ~/.cache/starship/init.nu
 clear
 # alias code = (flatpak run com.visualstudio.code)
 
-export def code [
-  path?: string
-] {
-  if ($path == null) {
-    flatpak run com.visualstudio.code
-  } else { 
-    flatpak run com.visualstudio.code $path
-  }
-}
+# export def code [
+#   path?: string
+# ] {
+#   if ($path == null) {
+#     flatpak run com.visualstudio.code
+#   } else { 
+#     flatpak run com.visualstudio.code $path
+#   }
+# }
 
 export def-env br [args = "."] {
     let cmd_file = (^mktemp | str trim);
