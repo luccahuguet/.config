@@ -8,7 +8,7 @@ $character
 """
 
 [fill]
-symbol = "_"
+symbol = " "
 
 [time]
 disabled = false
