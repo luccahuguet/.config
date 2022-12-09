@@ -1,0 +1,4210 @@
+sudo dnf install libxcb openssl-devel libX11-devel
+cargo
+dnf search alacritty
+dnf install cmake freetype-devel fontconfig-devel libxcb-devel libxkbcommon-devel g++
+sudo dnf install cmake freetype-devel fontconfig-devel libxcb-devel libxkbcommon-devel g++
+cargo install --locked alacritty
+clear
+alacritty
+sudo alacritty
+nano .config/alacritty
+cd .config/
+ls
+mv alacritty alacritty/
+ls
+cd alacritty
+mv alacritty ./alacritty/
+ls
+cd alacritty
+mkdir alacritty
+mv alacritty alacritty.yml
+ls
+mkdir alacritty
+mv alacritty.yml alacritty/
+ls
+nano .config/alacritty
+nano .config/alacritty/alacritty.yml
+sudo dnf copr enable varlad/helix
+sudo dnf install helix
+hx .config/alacritty/alacritty.yml
+clear
+hx .config/nushell/config.nu
+screenfetch
+flatpack search discord
+flatpak search discord
+flatpak install Discord
+dnf search teams
+sudo dnf install teams.rpm
+sudo tee /etc/yum.repos.d/ms-teams.repo<<EOF
+[Teams]
+name=teams
+baseurl=https://packages.microsoft.com/yumrepos/ms-teams
+enabled=1
+gpgcheck=1
+gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+exit()
+exit --help
+bash
+sudo dnf install teams -y
+flatpak search fira
+dnf search fira
+sudo  dnf install fira-code-fonts
+fc-list
+hx .config/alacritty/alacritty.yml
+git clone https://github.com/eendroroy/alacritty-theme.git ~/.alacritty-colorscheme
+hx .config/alacritty/alacritty.yml
+curl -sS https://starship.rs/install.sh | sh
+config nu
+hx .config/nushell/config.nu
+hx .config/nushell/env.nu
+hx .config/nushell/config.nu
+clear
+starship preset bracketed-segments > ~/.config/starship.toml
+starship preset bracketed-segments | save --raw  ~/.config/starship.toml
+ls
+cd tmp/alacritty/
+cd
+clea
+clear
+cd tmp/
+cd
+hx .config/starship.toml
+clear
+hx .config/starship.toml
+clear
+hx .config/starship.toml
+bash
+bash
+bash
+bash
+bash
+hx .config/starship.toml
+k
+clear
+hx .config/starship.toml
+bsh
+bash
+bash
+hx .config/starship.toml
+:x
+hx .config/starship.toml
+cd tmp/
+hx .config/starship.toml
+cd
+hx .config/starship.toml
+cd tmp/alacritty/
+hx .config/starship.toml
+cd
+hx .config/starship.toml
+:x
+hx .config/starship.toml
+clear
+hx .config/starship.toml
+cd tmp/alacritty/docs/
+cd ..
+hx .config/starship.toml
+cd
+hx .config/starship.toml
+:x
+hx .config/starship.toml
+cd tmp/alacritty/
+cd
+hx .config/starship.toml
+clear
+ls
+cd tmp/alacritty/
+sh
+clear
+cd
+hx ~/.config/alacritty/alacritty.yml
+hx ~/.config/starship.toml
+cd ~/.config/
+git init
+git config --global init.defaultBranch main
+git branch -m main
+clear
+dnf search gh
+dnf search gh 
+dnf search " gh "
+dnf search "gh "
+dnf search gh cli
+dnf search github cli
+sudo dnf install gh
+dnf self upgrade
+dnf upgrade self
+sudo dnf upgrade self
+gh repo create
+gh auth login
+gh repo create
+git add starship.toml
+git commit -m "added starship config"
+git push origin main
+sh <(curl -L https://nixos.org/nix/install) --daemon
+cd
+nix
+bash
+bash
+bash
+bash
+nix
+hx ~/.config/nushell/config.nu
+hx ~/.config/nushell/env.nu
+hx ~/.config/nushell/config.nu
+hx ~/.bash_profile
+hx ~/.nix-profile/etc/profile.d/nix.sh
+hx ~/.config/nushell/config.nu
+nu
+bash
+config nu
+bash
+clear
+nix-env
+nix
+nix-env search zellij
+nix-env -h
+nix-env -H
+nix-env --help
+nix-env -q
+nix-env -q zellij
+nix-env -qa zellij
+nix-env -i zellij
+zellij
+clear
+hx ~/.config/alacritty/alacritty.yml
+nu -h
+hx ~/.config/alacritty/alacritty.yml
+hx ~/.config/nushell/config.nu
+hx ~/.config/alacritty/alacritty.yml
+hx $nu.loginshell-path
+zellij --attach --help
+zellij --attach help
+zellij --attach
+zellij help
+hx ~/.config/alacritty/alacritty.yml
+hx $nu.loginshell-path
+zellij
+(which nu) | save --raw --append /etc/shells
+sudo (which nu) | save --raw --append /etc/shells
+(which nu) | sudo save --raw --append /etc/shells
+sudo((which nu) | save --raw --append /etc/shells)
+sudo ((which nu) | save --raw --append /etc/shells)
+su
+mkdir ~/.config/zellij
+zellij setup --dump-config 
+zellij setup --dump-config | save --raw ~/.config/zellij/config.yaml
+hx ~/.config/zellij/config.yaml
+$env.SHELL
+$env 
+$env.SHELL
+cat /etc/shells
+which $env
+where $env
+$env.SHELL
+cat /etc/shells
+hx ~/.config/zellij/config.yaml
+cargo
+nix
+zellij
+hx $nu.loginshell-path
+hx ~/.config/alacritty/alacritty.yml
+exi
+hx ~/.config/alacritty/alacritty.yml
+alacritty 
+hx ~/.config/alacritty/alacritty.yml
+grep alacritty
+zellij
+hx ~/.config/zellij/config.yaml
+hx ~/.config/starship.toml
+clear
+cargo install --list
+cargo
+nu
+cargo
+hx ~/.bash_profile
+hx ~/.bashrc
+hx ~/.config/nushell/config.nu
+cargo
+hx ~/.config/nushell/config.nu
+$env.HOME
+hx ~/.config/nushell/config.nu
+hx ~/.bash_profile
+cargo
+hx ~/.bash_profile
+hx ~/.config/nushell/config.nu
+cargo
+hx ~/.config/nushell/config.nu
+cargo
+$env.HOME
+hx ~/.config/nushell/config.nu
+cargo
+hx ~/.config/nushell/config.nu
+cargo
+clear
+dnf list --installed
+dnf list
+clear
+dnf list --installed --help
+dnf list --installed zellij
+dnf list --installed nu
+dnf list --installed teams
+dnf list --installed --recent
+dnf list --recent
+cargo install --list
+nix search --help
+nix-env list
+nix-env --list
+nix-env --help
+nix-env -q --installed
+zellij
+zellij ls
+clear
+ls
+mkdir words
+cd words
+git clone https://github.com/luccahuguet/journal.git
+cd journal/
+ls
+hx 12
+hx 13
+hx 
+mkdir pjs
+rm pjs
+cd
+mkdir pjs
+cd pjs/
+mkdir rust
+cd rust
+git clone https://github.com/luccahuguet/guessgame.git
+cd guessgame/
+hx .
+cd
+hx ~/.config/starship.toml
+clear
+hx --health rust
+dnf search rust-analyzer
+flatpak search rust-analyzrr
+flatpak search rust-analyzer
+sudo dnf install rust-analyzer
+gsettings
+gsettings get
+gsettings list-schemas
+gsettings
+gsettings get org.gnome.mutter
+gsettings get org.gnome.mutter value
+gsettings list-keys org.gnome.mutter 
+gsettings get org.gnome.mutter auto-maximize
+hx --health rust
+dnf search lldb
+sudo dnf install lldb.x86_64
+python
+clear
+hx --health rust
+clear
+hx ~/.config/starship.toml
+clear
+hx ~/.config/alacritty/alacritty.yml
+hx ~/.config/starship.toml
+clear
+hx ~/.config/starship.toml
+task
+clear
+hx ~/.config/nushell/login.nu
+hx ~/.config/zellij/config.yaml
+which hx
+hx ~/.config/zellij/config.yaml
+which nu
+which zellij
+clear
+clear
+clea
+clear
+which nu
+hx ~/.config/zellij/config.yaml
+ala
+alacritty
+clear
+hx ~/.config/alacritty/alacritty.yml
+which zellij
+hx ~/.config/alacritty/alacritty.yml
+alacritty
+hx ~/.config/alacritty/alacritty.yml
+clear
+hx ~/.config/nushell/login.nu
+alacritty
+hx ~/.config/nushell/login.nu
+hx ~/.config/alacritty/alacritty.yml
+ala
+alacritty
+hx ~/.config/nushell/login.nu
+hx ~/.config/alacritty/alacritty.yml
+clear
+hx ~/.config/alacritty/alacritty.yml
+hx ~/.config/nushell/login.nu
+cd pjs/rust/guessgame/
+hx .
+hx src/main.rs
+clear
+hx ~/.config/nushell/login.nu
+hx ~/.config/nushell/config.nu
+clea
+clear
+hx ~/.config/starship.toml
+clear
+ls
+cd words/journal/
+ls
+hx 1
+tokei
+hx 1
+clear
+hx 1
+hx 2
+hx 3
+hx 14
+hx --tutor
+clear
+cd
+clear
+ls
+clear
+ls
+cd Desktop/
+ls
+cd ../tmp/
+ls
+cd ../Documents/
+ls
+cd
+ls
+cd Downloads/
+ls
+cd pjs/rust/guessgame/
+clear
+hx pjs/rust/guessgame/src/main.rs
+clear
+hx pjs/rust/guessgame/src/main.rs
+hx ~/.config/helix/config.toml
+hx pjs/rust/guessgame/src/main.rs
+hx ~/.config/helix/config.toml
+hx pjs/rust/guessgame/src/main.rs
+clear
+sudo dnf upgrade --refresh
+clear
+nix-env -q macchina
+nix-env -q zellij
+nix-env -qa macchina
+nix-env -i macchina
+macchina
+sudo dnf install dnf-plugin-system-upgrade
+sudo dnf upgrade
+dnf repolist
+cd words/journal/
+ls
+hx 15
+git add .
+git commit 
+git push origin main
+clear
+cd; clear
+dnf search julia
+dnf search julia.x86_64
+sudo dnf install julia
+ls
+mkdir UserInstalls
+cd UserInstalls/
+mkdir julia_1.8.2
+cd julia_1.8.2/
+wget https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.2-linux-x86_64.tar.gz
+tar zxvf julia-1.8.2-linux-x86_64.tar.gz
+ls
+find help
+find -h
+find
+find *
+find .
+ls 
+ls *
+ls **
+ls
+mv julia-1.8.2 ./../
+cd ..
+ls
+rm -r julia_1.8.2/
+mv julia-1.8.2/ julia_1.8.2
+ls
+cd julia_1.8.2/
+ls
+ls **
+grep julia
+ls
+bin/julia
+clear
+config nu
+hx ~/.config/nushell/config.nu
+reload
+clear
+julia
+hx ~/.config/nushell/config.nu
+config nu
+cd bin/
+pwd
+pwd | wl-copy
+dnf search wl-copy
+dnf search copy
+sudo dnf install wl-clipboard
+pwd | wl-clip
+pwd | wl-copy
+config nu
+clear
+cd
+julia
+clear
+hx --health julia
+hx pjs/rust/guessgame/src/main.rs
+clear
+lapce pjs/rust/guessgame/src/main.rs
+lap
+lapce
+clear
+bash
+clear
+ls
+cargo run
+clear
+$env | grep TERM
+clear
+macchina
+clear
+hx ~/.config/macchina.toml
+mv ~/.config/macchina.toml ~/.config/macchina/
+cd ~/.config/
+ls
+mv ~/.config/macchina.toml ~/.config/macchina/
+mv ~/.config/macchina.toml ~/.config/macchina/ -r
+mkdir macchina
+mv ~/.config/macchina.toml ~/.config/macchina/
+ls
+macchina
+hx ~/.config/macchina.toml
+cd
+hx ~/.config/macchina/macchina.toml
+macchina
+hx ~/.config/macchina/macchina.toml
+macchina
+hx ~/.config/macchina/macchina.toml
+macchina
+sudo dnf install neofetch
+neofetch
+macchina
+pfetch
+neofetch
+hx ~/.config/neofetch/config.conf
+neofetch
+hx ~/.config/neofetch/config.conf
+neofetch
+cargo uninstall macchina
+sudo dnf uninstall macchina
+sudo dnf rm macchina
+macchina
+which macchina
+nix -e macchina
+nix-env -e macchina
+macchina
+neofetch
+hx ~/.config/neofetch/config.conf
+neofetch
+neo
+dnf search hyperland
+clear
+dnf search bat
+nix-env -qa bat
+nix-env -i bat
+bat
+clear
+ls
+bat pjs/rust/guessgame/src/main.rs
+curl -s https://sh.rustup.rs | bat
+nix-env -i ripgrep
+cd pjs
+rg num
+cd 
+ls
+cd UserInstalls/
+ls
+rg julia
+cd
+clear
+julia
+rpm -qa | grep wayland
+sudo dnf install ninja-build cmake meson gcc-c++ libxcb-devel libX11-devel pixman-devel wayland-protocols-devel cairo-devel pango-devel
+cd UserInstalls/
+git clone --recursive https://github.com/hyprwm/Hyprland
+ls
+cd Hyprland/
+meson _build
+sudo dnf install cmake
+ls
+wayland-server
+bat README.md
+cd
+bat /usr/local/share/wayland-sessions
+bat ../../usr/local/share/wayland-sessions
+bat ../usr/local/share/wayland-sessions
+bat ./../usr/local/share/wayland-sessions
+ls
+cd ..
+bat ./usr/local/share/wayland-sessions
+cd usr/local/share/
+rg way
+ls
+cd
+dnf install list wayland
+dnf install --list wayland
+dnf install --list 
+dnf list --installed
+dnf list --installed way
+dnf list --installed | get name
+dnf list --installed wayland
+dnf list --installed --help
+dnf search wayland-server
+dnf search wayland-server --installed
+cd UserInstalls/Hyprland/
+sudo make install
+loginctl
+loginctl show-session 2 -p Type
+sudo dnf install wayland-server
+apt-cache show mutter | grep Version
+dnf-cache show mutter | grep Version
+show mutter | grep Version
+mutter
+which mutter
+meson _build
+sudo dnf upgrade cmake
+sudo dnf install wayland-devel
+meson _build
+sudo dnf install libdrm
+sudo dnf install libdrm-devel
+meson _build
+sudo dnf upgrade
+meson _build
+sudo dnf update
+sudo dnf upgrade
+sudo dnf upgrade --refresh
+sudo dnf install libdrm-2.4.113
+cd ..
+curl -h
+wget https://dri.freedesktop.org/libdrm/libdrm-2.4.113.tar.xz
+ls
+sudo dnf install libdrm-dev
+tar xf libdrm-2.4.113.tar.xz
+cd libdrm-2.4.113/
+mkdir build
+cd build/
+meson --prefix=/usr/local
+ninja
+ninja test
+cd UserInstalls/
+cd libdrm-2.4.113/
+su
+ninja install
+meson --prefix=/usr/local
+cd build/
+ninja install
+cd ..
+cd Hyprland/
+meson _build
+sudo dnf install libudev
+sudo dnf install libudev-devel
+meson _build
+sudo dnf install libseat
+meson _build
+sudo dnf install libseat-devel
+meson _build
+sudo dnf install egl
+sudo dnf install mesa-libEGL-devel
+meson _build
+sudo dnf install libinpu
+sudo dnf install libinput
+sudo dnf install libinput-devel
+meson _build
+ninja -C _build
+dnf install xwayland
+sudo dnf install xwayland
+sudo dnf install xwayland-devel
+sudo dnf install ninja-build cmake meson gcc-c++ libxcb-devel libX11-devel pixman-devel wayland-protocols-devel cairo-devel pango-devel
+sudo dnf install rust-xkbcommon-devel libudev-devel libseat-devel mesa-libEGL-devel libinput-devel
+meson _build
+meson --reconfigure
+ls
+meson _build
+meson --reconfigure _build
+sudo dnf install xcb-proto xcb-util-devel xcb-util-wm-devel xcb-util-image-devel
+meson --reconfigure _build
+ninja reconfigure -C _build
+sudo ninja -C _build install
+dnf install ninja-build cmake meson gcc-c++ libxcb-devel libX11-devel pixman-devel wayland-protocols-devel cairo-devel pango-devel
+sudo dnf install ninja-build cmake meson gcc-c++ libxcb-devel libX11-devel pixman-devel wayland-protocols-devel cairo-devel pango-devel
+dnf install wayland-devel libdrm-devel libxkbcommon-devel systemd-devel libseat-devel mesa-libEGL-devel libinput-devel xcb-util-wm-devel xorg-x11-server-Xwayland-devel mesa-libgbm-devel xcb-util-renderutil-devel
+sudo dnf install wayland-devel libdrm-devel libxkbcommon-devel systemd-devel libseat-devel mesa-libEGL-devel libinput-devel xcb-util-wm-devel xorg-x11-server-Xwayland-devel mesa-libgbm-devel xcb-util-renderutil-devel
+meson --reconfigure _build
+ninja reconfigure -C _build
+sudo ninja -C _build install
+hyperland
+cd
+cp /usr/local/share/wayland-sessions/hyprland.desktop /usr/share/wayland-sessions/
+sudo cp /usr/local/share/wayland-sessions/hyprland.desktop /usr/share/wayland-sessions/
+mkdir -h
+mkdir ~/.config/hypr
+cp UserInstalls/Hyprland/example/hyprland.conf ~/.config/hypr
+hx ~/.config/hypr
+cd ~/.config/autostart/
+ls
+rm teams.desktop
+ls
+hx ~/.config/hypr/hyprland.conf
+hyprctl keyword monitor NAME,RES@HZ,OFFSET,SCALE
+hyprctl monitors
+sudo dnf install nvidia-dkms
+cat /tmp/hypr/$(ls -t /tmp/hypr/ | head -n 1)/hyprland.log
+cat /tmp/hypr/(ls -t /tmp/hypr/ | head -n 1)/hyprland.log
+(ls -t /tmp/hypr/ | head -n 1)
+hx ~/.config/hypr/hyprland.conf
+dnf search dust
+cargo search du-dust
+nix-env -qa dust
+nix-env -qa du-dust
+nix-env -i du-dust
+dust
+cd UserInstalls/
+dust
+cd
+clear
+ls
+dust
+sudo dnf upgrade --refresh
+sudo dnf install steam-devices
+lspci |grep -E "VGA|3D"
+sudo dnf update
+dnf search spotify
+sudo dnf install lpf-spotify-client.x86_64
+cd Downloads/
+ls
+bash
+./NVIDIA-Linux-x86_64-515.76.run
+sudo ./NVIDIA-Linux-x86_64-515.76.run
+su
+clear
+cd
+clear
+hx ~/.config/hypr/hyprland.conf
+sudo dnf rm lpf-spotify-client.x86_64
+sudo dnf install lpf-spotify-client.x86_64
+lpf update
+dnf search snap
+sudo dnf install snapd
+snap search spotify\
+snap search spotify
+sudo dnf rm lpf-spotify-client.x86_64
+dnf install xorg-x11-server-Xwayland libxcb egl-wayland
+sudo dnf install xorg-x11-server-Xwayland libxcb egl-wayland
+clear
+hx .
+hx --tutor
+hx pjs/rust/guessgame/src/main.rs
+rg logs
+rg alacritty
+rg alacritty log
+hx --tutor
+clear
+cd UserInstalls/
+ls
+clea
+clear
+mv ~/Downloads/the-headmaster-win.zip ./
+ls
+mkdir old
+cd UserInstalls/
+mv the-headmaster-win.zip ./old/
+ls
+cd old
+unzip
+unzip the-headmaster-win.zip
+ls
+rm TheHeadmaster-0.13.2public-pc/
+rm -r TheHeadmaster-0.13.2public-pc/
+unzip the-headmaster-win.zip UNZIP_DISABLE_ZIPBOMB_DETECTION=TRUE
+cd the-headmaster-win/
+./TheHeadmaster-0.13.2public-pc/TheHeadmaster.sh
+cd
+clear
+hx ~/.config/zellij/config.yaml
+zellij help
+zellij k
+alacritty
+hx ~/.config/alacritty/alacritty.yml
+clear
+cd pjs/rust/guessgame/src/
+clear
+sdfkasjdkfskdjfksd
+kfjdkfjkd
+dfasdfsdfsdf
+fdfdfsdafd
+clear
+hx ~/.config/alacritty/alacritty.yml
+hx --tutor
+zellij --compact-bar
+zellij help
+zellij options --compact-bar
+zellij -l --compact-bar
+hx ~/.config/alacritty/alacritty.yml
+alacritty
+clear
+hx --tutor
+zellij --compact
+zellij options --compact
+zellij options --strider
+zellij -l --strider
+zellij help
+hx ~/.config/zellij/config.yaml
+hx --tutor
+clear
+hx --tutor
+clear
+zellij --layout compact
+clear
+hx ~/.config/zellij/config.yaml
+hx --tutor
+hx ~/.config/zellij/config.yaml
+clear
+zellij ls
+zellij k squalid-coast
+zellij k remarkable-breakfast
+cd words/journal/
+ls
+hx 15
+hx 14
+hx 16
+clear
+cd ..
+cd
+cd UserInstalls/
+./TheHeadmaster-0.13.2public-pc/TheHeadmaster.sh
+./old/
+./TheHeadmaster-0.13.2public-pc/TheHeadmaster.sh
+rm -r `the-headmaster-win (1)/`
+./the-headmaster-win/TheHeadmaster-0.13.2public-pc/TheHeadmaster.sh
+rm -r the-headmaster-win/ the-headmaster-win.zip
+ls 
+clear
+sudo dnf uninstall teams
+dnf list --installed temas
+dnf list --installed teams
+sudo dnf uninstall teams.x86_64
+sudo dnf rm teams
+y
+sudo dnf rm teams
+clear
+cd words/journal/
+hx 1
+hx 16
+hx 17
+git add .
+git commit -m "mais algumas entradas no journal"
+git push origin main
+git branch
+hx 17
+clear
+hx 17
+cd
+clear
+cd words/
+ls
+mkdir atomic_habit
+rm atomic_habit/
+mkdir atomic_habits
+clear
+cd atomic_habits/
+hx habits
+ls
+hx habits
+sudo dnf install gnome-browser-connector
+ gnome-shell --version
+gsettings get org.gnome.mutter auto-maximize
+cd words
+cd atomic_habits/
+mkdir habit_stacking
+rm habit_stacking/
+cd words/atomic_habits/
+hx habit_stacking
+ls
+clear
+neofetch
+clear
+neofetch
+cd
+clear
+cd /usr/share/applications
+ls
+rg discord
+cd
+sudo dnf install hugo
+hugo version
+nix-env search hugo
+nix-env -qa hugo
+sudo dnf rm hugo
+nix-env -i hugo
+hx /home/lucca/.var/app/us.zoom.Zoom/config/zoomus.conf
+hx ./.var/app/us.zoom.Zoom/config/zoomus.conf
+cd /home/lucca/.var/app/us.zoom.Zoom/config
+hx zoomus.conf
+hugo version
+clear
+cd
+clear
+cd pjs
+ls
+mkdir hugo
+cd hugo/
+ls
+clear
+git clone https://gitlab.com/rastreando/panaceia_site.git
+cd panaceia_site/
+hugo --serve
+hugo server
+ls
+git branch
+cd
+cd pjs
+cd hugo
+rm -r panaceia_site/
+git clone https://gitlab.com/rastreando/panaceia_site.git
+cd panaceia_site/
+hugo server
+ls
+git branch
+git fetch
+git pull
+git branch
+git checkout master
+ls
+hugo server
+code .
+ hugo server --disableFastRender
+clear
+clear
+git checkout main
+ls
+rm README.md
+git checkout master
+ls
+git checkout main
+hugo new site tella
+ls
+rm tella
+rm -r tella
+ls
+rm README.md
+hugo new site pan_tella
+ls
+cd pjs/hugo/panaceia_site/pan_tella/
+clear
+ls
+git submodule add https://github.com/opera7133/tella themes/tella
+ls
+cd themes
+ls
+cd ..
+clear
+hx config.toml
+code .
+hx config.toml
+hugo new posts/my-first-panaceia-post.md
+cd posts
+ls
+cd content
+ls
+cd posts
+ls
+cd 
+cd pjs/hugo/panaceia_site/pan_tella/
+clear
+ls
+clear
+hugo server -D
+cd
+sudo dnf install npm
+npm install postcss-cli
+npm rm postcss-cli
+npm install postcss-cli
+hugo server -D
+ls themes/tella/exampleSite/
+clear
+cd pjs/hugo/panaceia_site/pan_tella/
+clear
+ls
+cd themes
+ls
+cd tella
+ls
+cd exampleSite/
+ls
+cd ../..
+cd ..
+cp ./themes/tella/exampleSite/ ./
+cp ./themes/tella/exampleSite ./
+cp -r ./themes/tella/exampleSite ./
+ls
+hugo server -D
+cp -r ./themes/tella/exampleSite/ ./
+ls
+cp -r ./themes/tella/exampleSite/content ./content/
+rm -r exampleSite/
+cp -r ./themes/tella/exampleSite/data ./data
+ls themes/tella/exampleSite/
+cp -r ./themes/tella/exampleSite/layouts/ ./layouts/
+cp -r ./themes/tella/exampleSite/archetypes/ ./archetypes/
+cp -r ./themes/tella/exampleSite/ ./
+cp -r ./themes/tella/exampleSite/* ./
+ls
+ls themes/tella/exampleSite/
+cd ../../..
+cd hugo/panaceia_site/
+cd pan_tella/
+clear
+hx postcss.config.js  
+hugo server -D
+git add .
+git commit -m "versao inicial pan_tella"
+git push origin main
+git config --global http.postBuffer 157286400
+git push origin main
+clear
+cd
+clear
+npm help
+npm purge
+npm prune
+ls
+rm -r package.json package-lock.json
+clear
+ls
+rm -r node_modules/
+ls
+cd pjs/hugo/panaceia_site/pan_tella/
+clear
+cd
+clear
+gsettings get org.gnome.shell favorite-apps
+ls ./../../usr/share/applications/
+cd ./../../usr/share/applications/
+rg xdg
+rg discord
+cd
+cd .local/share/applications/
+ls
+cd
+discord
+where discord
+rg discord
+cd 
+clear
+cd ../..
+cd usr
+rg discord
+nix-env -q
+flatpak list
+cd 
+rg flatpak
+cd /home/lucca/.local/share/flatpak/exports/shar
+cd /home/lucca/.local/share/flatpak/exports/share
+cd /home/lucca/.local/share/flatpak
+ls
+cd repo
+ls
+exa
+ls --tree
+ls ..
+ls .
+ls **
+cd ..
+ls **
+cd
+rg flatpak
+clear
+cd /var
+cd liv
+cd lib
+cd flatpak/
+ls
+cd exports/
+ls
+cd share/
+ls
+cd applications/
+ls
+hx com.discordapp.Discord.desktop
+clear
+cd
+cleqar
+clear
+cd words/journal
+ls
+hx 17
+hx 18
+cd
+clear
+hx --tutor
+clear
+hx --tutor
+exercism download --exercise=semi-structured-logs --track=rust
+snap
+snap search exercism
+snap install exercism
+exercism configure --token=331331cc-2096-49ce-b026-7559b3868198
+coredumpctl gdb alacritty
+bt full
+cd pjs/rust/
+cd
+alacritty -vv
+exercism download --exercise=semi-structured-logs --track=rust
+cd /home/lucca/snap/exercism/5/exercism/rust/semi-structured-logs
+cargo install --locked cargo-outdated
+cargo outdated
+cd
+claer
+clear
+cargo outdated
+hx 
+cargo
+cargo check
+hx .
+cargo check
+cargo outdate
+cargo outdated
+ls
+rg .cargo
+cd .cargo
+ls
+ls 
+cd
+bat cargo.toml
+cargo install --list
+cargo 
+cargo check
+cargo outdated
+cd .cargo
+cargo check
+ls
+cd bin
+la
+ls
+cargo chekc
+cargo check
+rg Cargo.toml
+cd
+rg Cargo.toml
+cd ../..
+rg Cargo.toml
+cd
+cd .cargo
+ls **
+cd
+ls
+cd .cargo
+ls
+cd bin
+ls **
+ls
+cd nu
+ls
+cd ..
+ls
+cd env
+cd ..
+ls **
+clear
+cd ./snap/exercism/5/exercism/rust/semi-structured-logs
+hx  src/lib.rs
+hx --health rust
+nix-env list
+nix-env help
+nix-env --help
+nix-env -q
+hx -v
+hx --version
+cd 
+cd ./.config/helix/
+ls
+rustup component add rust-src
+clear
+cd
+dnf search rust-analyzer
+sudo dnf rm rust-analyzer
+cd ./local
+ls
+mkdir .local/bin
+curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust-analyzer-x86_64-unknown-linux-gnu.gz 
+ls
+cd ./local/tmp
+cd ./local
+cd .local
+sl
+ls
+mkdir tmp
+cd tmp
+curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust-analyzer-x86_64-unknown-linux-gnu.gz
+curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust-analyzer-x86_64-unknown-linux-gnu.gz -O ./
+ls
+unzip rust-analyzer-x86_64-unknown-linux-gnu.gz ~/.local/bin
+unzip rust-analyzer-x86_64-unknown-linux-gnu.gz
+gunzip rust-analyzer-x86_64-unknown-linux-gnu.gz
+ls
+rm -r rust-analyzer-x86_64-unknown-linux-gnu
+curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust-analyzer-x86_64-unknown-linux-gnu.gz -O | gunzip 
+ls
+gunzip rust-analyzer-x86_64-unknown-linux-gnu.gz ~/.local/bin/
+gunzip --help
+rm rust-analyzer-x86_64-unknown-linux-gnu
+curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust-analyzer-x86_64-unknown-linux-gnu.gz -O | gunzip -c ~/.local/bin/rust-analyzer
+ls
+ls ./../bin/
+gunzip rust-analyzer-x86_64-unknown-linux-gnu.gz ~/.local/bin/rust-analyzer
+ls
+ls ./../bin/
+mv rust-analyzer-x86_64-unknown-linux-gnu ~/.local/bin/
+ls
+cd ../bin/
+ls
+mv rust-analyzer-x86_64-unknown-linux-gnu rust-analyzer
+ls
+ls -la
+chmod -x rust-analyzer
+ls
+ls -la
+chmod +x rust-analyzer
+ls -la
+cd 
+$env.PATH
+mv .local/bin/rust-analyzer ~/../../usr/local/bin/rust-analyzer
+sudo mv .local/bin/rust-analyzer ~/../../usr/local/bin/rust-analyzer
+ls .local/bin
+ls ../../usr/local/bin/
+cd  ../../usr/local/bin/
+ls
+ls -la
+hx  src/lib.rs
+cd
+clear
+hx --health rust
+hx --health
+nix-env -q
+dnf search helix
+dnf list --installed helix
+hx  src/lib.rs
+cd pjs/rust/guessgame/src/
+hx main.rs
+dnf list --installed helix
+hx main.rs
+cd
+cd .config/helix/
+ls
+sudo dnf rm helix
+nix-env -qa helix
+nix-env -i helix
+cd
+cd pjs/rust/guessgame/
+hx src/main.rs
+hx --health rust
+sudo dnf upgrade
+sudo dnf update
+cd pjs/rust/guessgame/
+hx -v src/main.rs
+ls
+cd
+cd var/log
+cd /var/log
+ls
+cd gdm
+ls
+cd ..
+rg helix
+cd 
+cd pjs/rust/guessgame/
+hx -vv src/main.rs
+rustc --print sysroot
+rustsrc --print sysroot
+clear
+rustup update
+rustup comonent add rust-src
+rustup component add rust-src
+rustup component rm rust-src
+rustup component uninstall rust-src
+rustup component remove rust-src
+rustup component add rust-src
+hx -v src/main.rs
+cargo install --list
+$env.RUST_SRC_PATH
+which rust-analyzer
+cd /usr/local/bin/
+ls
+cd
+ls ~/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library
+ls ~/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/
+ls ~/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library
+rustup update
+rustup which
+rustup which rustc
+ rustc -V 
+dnf rm rustc
+sudo dnf rm rustc
+cargo 
+clear
+hx src/main.rs
+hx --tutor
+cargo check
+cargo run
+clear
+cargo outdate
+cargo outdated
+cargo update
+hx src/main.rs
+cd
+clea
+clear
+rg exercism
+cd snap/exercism/5/exercism/rust/semi-structured-logs/
+code .
+which code
+\cd
+cd
+code
+rg code
+rg bin/code
+cd /usr/local/bin/
+ls
+clear
+cd
+cd /usr/local/bin/
+ls
+cd /flatpack
+cd
+rg flatpak
+cd /var/log/
+rg alacritty
+hx gdm/
+cd /tmp/
+ls
+cd zellij-1000/
+cd zellij-log/
+zellij ls
+zellij k creepy-lake
+clear
+cd
+hx zellij.log
+cd
+clear
+hx --tutor
+clear
+ls
+ls
+cd pjs/rust/guessgame/
+ls
+hx .config/helix/config.toml
+clear
+rg exercism
+cd snap/exercism/5/exercism/rust/semi-structured-logs/
+ls
+hx src/main.rs
+ls
+ls **
+cd ..
+rm semi-structured-logs/
+rm -r semi-structured-logs/
+exercism download --exercise=semi-structured-logs --track=rust
+cd semi-structured-logs/
+hx src/main.rs
+ls
+ls **
+cd src/
+ls
+cd ..
+hx src/lib.rs
+cargo test
+code .
+hx ~/.config/nushell/login.nu
+hx ~/.config/nushell/config.nu
+code .
+cd snap/exercism/5/exercism/rust/semi-structured-logs/
+code .
+hx ~/.config/nushell/config.nu
+code .
+bash
+hx src/lib.rs
+code .
+"alias code = (flatpak run com.visualstudio.code)" | append --raw ~/.config/nushell/config.nu
+"alias code = (flatpak run com.visualstudio.code)" | save --raw --append  ~/.config/nushell/config.nu
+config nu
+code 
+cd snap/exercism/5/exercism/rust/semi-structured-logs/
+code .
+do {code .}
+code .
+code ./
+code 
+code ./
+code ./src/
+dnf search vscode
+dnf search code
+hx ~/.config/nushell/config.nu
+code .
+hx ~/.config/nushell/config.nu
+code 
+hx ~/.config/nushell/config.nu
+code
+hx ~/.config/nushell/config.nu
+code .
+code 
+hx ~/.config/nushell/config.nu
+code .
+code 
+code ./
+code .
+hx ~/.config/nushell/config.nu
+clear
+code .
+clear
+hx src/lib.rs
+cargo test
+hx src
+hx 
+hx .
+cargo test
+cd /tmp/
+ls
+hx snap.exercism/
+cd snap.exercism/
+ls
+root
+su
+clear
+cd
+clear
+cd snap/exercism/5/exercism/rust/semi-structured-logs/
+clear
+cargo test
+hx .
+cargo test
+cd
+cler
+clear
+cargo install --list
+cd .cargo/
+cargo outdated
+ls
+cd bin
+ls
+cargo outdated
+cd ..
+cd env
+ls
+cd registry/
+ls
+cd src/
+ls
+cd ..
+ls **
+cd index/
+ls
+cd
+cd .cargo/
+rg .toml
+cargo update
+cd 
+cargo update nu
+cargo install --list
+cargo upgrade nu
+cargo update nu
+cargo update
+cargo outdated
+hx .config/nushell/config.nu
+cargo outdated
+cd .cargo/
+cargo outdated
+cd
+clear
+cargo install --list
+bash
+cargo install nu
+cargo install --locked nu
+hx .config/nushell/config.nu
+bash
+code .config/nushell/config.nu
+nano .config/nushell/config.nu
+nano .cache/starship/init.nu
+nu
+nano .cache/starship/init.nu
+alacritty
+nano .cache/starship/init.nu
+config nu
+nu
+alacritty
+alacritty
+env nu
+hx .config/nushell/env.nu
+config nu
+hx .cache/starship/init.nu
+nano .cache/starship/init.nu
+hx .cache/starship/init.nu
+hx .config/nushell/env.nu
+hx .config/nushell/config.nu
+cd snap/exercism/5/exercism/rust/semi-structured-logs/
+exercism submit src/lib.rs
+cargo test
+exercism submit src/lib.rs
+hx .
+clear
+cd
+clear
+hx words/journal/
+hx words/journal/19
+xdg-open words/journal/
+less words/journal/
+nix-env -i xplr
+nix-env -q 
+nix-env -u
+nix-env -q 
+nix-env -u zellij
+nix-env -qa zellij
+cargo search zellij
+nix-env -e zellij
+ls
+nix-env -qa broot
+nix-env -i broot
+cargo install --locked zellij
+clear
+hx .config/alacritty/alacritty.yml
+alacritty
+which zellij
+hx .config/alacritty/alacritty.yml
+zr cargo install --list
+zrf cargo install --list
+br
+broot
+config nu
+br
+config nu
+reload
+br
+clear
+cargo
+clear
+cd words
+br
+clear
+br
+xplr
+xplr --version
+xplr
+br
+systemctl stop bluetooth
+systemctl start bluetooth
+sudo systemctl restart bluetooth
+hx /var/log/
+neofetch
+clear
+neofetch
+ls
+clear
+cd .config/zellij/
+sudo dnf install btm
+cargo install --locked btm
+btm
+cargo rm btm
+cargo r btm
+cargo uninstall btm
+cargo search bottom
+nix-env -qa bottom
+dnf search bottom
+nix-env -i bottom
+hx lay4.kdl
+ls
+hx .config/zellij/config.kdl
+zellij action new-tab --layout .config/zellij/lay4.kdl
+ls
+cd pjs/rust/guessgame/
+clear
+cd pjs/rust/guessgame/
+hx .
+clear
+cd
+clear
+hx --health yalm
+hx --health yaml
+cargo search bottom
+btm
+clear
+zellij action new-tab --layout .config/zellij/lay4.kdl
+hx .config/zellij/config.kdl
+hx .config/zellij/lay4.kdl
+cp .config/zellij/lay4.kdl .config/zellij/lay1.kdl
+hx .config/zellij/lay1.kdl
+zellij action new-tab --layout .config/zellij/lay1.kdl
+zellij action new-tab --layout .config/zellij/lay4.kdl
+hx .config/zellij/lay4.kdl
+zellij action new-tab --layout .config/zellij/lay1.kdl
+zellij action new-tab --layout .config/zellij/lay4.kdl
+hx .config/zellij/lay4.kdl
+zellij action new-tab --layout .config/zellij/lay4.kdl
+hx .config/zellij/lay4.kdl
+zellij action new-tab --layout .config/zellij/lay4.kdl
+hx .config/zellij/lay1.kdl
+zellij action new-tab --layout .config/zellij/lay1.kdl
+zellij ls
+ze pjs/rust/guessgame/src/main.rs
+zellij edit pjs/rust/guessgame/src/main.rs
+hx .config/zellij/lay1.kdl
+zellij action new-tab --layout .config/zellij/lay1.kdl
+zellij ls
+hx .config/zellij/lay1.kdl
+zellij action new-tab --layout .config/zellij/lay1.kdl
+hx .config/zellij/lay4.kdl
+hx .config/zellij/lay1.kdl
+strider
+zellij -l --strider
+zellij --layoyt --strider
+zellij --layout --strider
+zellij layout --strider
+zellij help
+zellij optinos --strider
+zellij options --strider
+zellij options help
+zellij options --help
+hx .config/zellij/lay1.kdl
+zellij run neofetch
+zellij run "neofetch"
+zellij run 
+zellij run --help
+zellij run -- neofetch
+zellij action new-tab --layout .config/zellij/lay1.kdl
+hx .config/zellij/lay1.kdl
+zellij action new-tab --layout .config/zellij/lay1.kdl
+hx .config/zellij/lay1.kdl
+zellij action new-tab --layout .config/zellij/lay1.kdl
+hx .config/zellij/lay1.kdl
+zellij action new-tab --layout .config/zellij/lay1.kdl
+hx .config/zellij/lay1.kdl
+zellij action new-tab --layout .config/zellij/lay1.kdl
+hx .config/zellij/lay1.kdl
+zellij action new-tab --layout .config/zellij/lay1.kdl
+zellij run -- neofetch
+zellij run --layout .config/zellij/lay1.kdl
+zellij action new-tab -l .config/zellij/lay1.kdl
+hx .config/zellij/lay1.kdl
+zellij action new-tab -l .config/zellij/lay1.kdl
+zellij action new-tab -l .config/zellij/lay4.kdl
+zellij ls
+zellij action new-tab -l .config/zellij/lay1.kdl
+zellij action new-tab -l .config/zellij/lay1
+zellij action new-tab -l .config/zellij/lay4
+zellij action new-tab -l .config/zellij/lay1
+zellij action new-tab -l .config/zellij/lay4
+zellij action new-tab -l .config/zellij/lay1
+zellij action new-tab -l .config/zellij/lay4
+zellij action new-tab -l .config/zellij/lay1
+zellij action new-tab -l .config/zellij/lay4
+zellij action new-tab -l .config/zellij/lay1
+zellij ls
+clear
+cd words
+ls
+ls **
+exa 
+ls *
+ls ***
+ls --all
+ls --tree
+ls --help
+ls -f ..
+ls ..
+ls ./..
+ls .
+ls -f .
+ls -f 
+ls -f ./
+ls -f /
+ls -f ./
+ls ./
+ls subdir
+ls journal/
+ls */
+ls **/
+ls -f **/
+cd
+neofetch
+nu
+zellij run -l .config/zellij/lay4
+zellij action new-tab -l .config/zellij/lay1
+zellij action new-tab -l .config/zellij/lay4
+zellj ls
+zellij ls
+clea
+clear
+hx .config/zellij/lay1.kdl
+"alias lay4 = (zellij action new-tab -l .config/zellij/lay4)" | save --raw --append ./.config/nushell/config.nu
+config nu
+lay4
+config nu
+lay1
+lay4
+lay1
+lay4
+ls
+cd pjs/rust/guessgame/
+cler
+clear
+cd .config/
+git diff
+git add starship.toml
+git commit -m "starship now has time on the right side"
+git push origin main
+clear
+cd
+clear
+cd pjs/rust/guessgame/
+clear
+cd
+clear
+hx .config/nushell/config.nu
+hx .config/nushell/env.nu
+hx .config/nushell/login.nu
+hx .config/nushell/history.txt
+cd .config/
+git add nushell/config.nu
+hx .config/nushell/env.nu
+hx nushell/env.nu
+git add nushell/env.nu
+git commit -m "added config.nu and env.nu files"
+git push origin main
+git pull
+ls
+git push origin main
+git pull
+git fetch
+git pull
+git push origin main
+git diff
+git push origin main -f
+hx README.md
+git add README.md
+git commit -m "readme added"
+git push origin main
+cd
+cargo install --list
+cargo outdated
+cd .cargo
+cargo outdated
+ls
+cd bin
+cargo outdated
+ls
+cd ../registry/
+ls
+ls -f **/
+ls index/
+cd ..
+ls
+cd ../..
+ls
+cd bin
+ls
+cd ..
+cd lib/
+ls
+cd 
+clear
+cargo search nu
+cargo install --locked nu
+nix-env -q
+nix-env -h
+nix-env --help
+nix-env -qa
+nix-env -q
+nix-env -u
+nix-env -u '*'
+sudo nix-channel --update
+nix-env -u *
+nix-env -u helix
+lay4
+clear
+mv .config/zellij/lay1.kdl .config/zellij/lay1e.kdl
+cp .config/zellij/lay1e.kdl .config/zellij/lay1.kdl
+hx .config/zellij/lay1e.kdl
+ls
+zellij action new-tab -l .config/zellij/lay1e
+rm .config/zellij/config.yaml
+hx .config/zellij/config.kdl
+which hx
+hx .config/zellij/config.kdl
+$env.EDITOR
+config nu
+clear
+which hx
+$env.EDITOR
+nu
+clear
+zellij action new-tab -l .config/zellij/lay1e
+lay4
+hx .config/zellij/lay1.kdl
+lay1
+hx .config/zellij/lay1.kdl
+lay1
+lay4
+lay1
+hx .config/zellij/lay1.kdl
+lay1
+hx .config/zellij/lay1.kdl
+lay1
+hx .config/zellij/lay1.kdl
+lay1
+hx .config/zellij/lay1.kdl
+lay
+lay1
+hx .config/zellij/lay1.kdl
+lay1
+hx .config/zellij/lay1.kdl
+lay1
+hx .config/zellij/lay1.kdl
+lay1
+hx .config/zellij/lay1.kdl
+lay1
+hx pjs/rust/guessgame/src/main.rs
+clear
+lay4
+lay1
+eexit
+clear
+cd pjs/rust/guessgame/
+ls
+sudo dnf upgrade
+sudo flatpak upgrade
+snap list
+snap upgrade
+snap update
+snap help
+snap help help install
+snap install --upgrade
+snap install --updatee
+snap install --update
+snap install
+clear
+cd words/journal/
+hx 20
+git add .
+git diff
+gitui
+git diff origin main
+git commit -m "some more entries"
+git push origin main
+clear
+cd
+cd journal/
+cd words/journal/
+clear
+ls --recursive /sys/class/power_supply/BAT*
+ls
+cd
+ls -r /sys/class/power_supply/BAT*
+ls /sys/class/power_supply/BAT*
+ls help
+ls --help
+ls /sys/class/power_supply/BAT**
+ls /sys/class/power_supply/BAT*
+cd  /sys/class/power_supply/BAT0
+cd pjs/
+mkdir python
+cd python/
+mkdir elfotec
+cd elfotec/
+ls
+mkdir hair_colab
+code hair_colab
+clear
+which nu
+ced
+cd
+clear
+pip uninstall pipx
+pip
+python
+clear
+python -m ensurepip --upgrade
+config nu
+cd pjs/python/elfotec/
+cd hair_colab/
+cd ../..
+python3 -m pip install --user pipx; python3 -m pipx ensurepath
+python3 -m pipx ensurepath
+python3 -m pip install --user pipx
+pipx
+pipx install poetry
+pipx upgrade poetry
+poetry install ipykernel
+poetry init
+cd elfotec/hair_colab/
+poetry init
+poetry show
+poetry
+poetry check
+poetry env
+poetry env info
+poetry add ipykernel
+poetry add psutil
+dnf install python-devel
+sudo dnf install python-devel
+poetry add psutil
+poetry add ipykernel
+which python
+which python-3.11
+which python_3.11
+poetry use python-3.10
+poetry env use python-3.10
+python3 -v
+sudo dnf list python
+ dnf search python
+which python
+cd pjs/python/elfotec/hair_colab/
+python3 –version
+python3 -–version
+python3 version
+python3 --v
+python3 -v
+which python3
+poetry check
+cd /usr/bin/
+ls
+python3
+cd
+sudo dnf  uninstall python-3.11
+sudo dnf uninstall python-3.11.0
+sudo dnf uninstall python-3.11.0rc2
+sudo dnf install --list 
+sudo dnf list python
+poetry install
+poetry env use 
+poetry env use python
+poetry env use python-3.10
+poetry env use python3.10
+poetry env use 3.10
+pip list
+pip uninstall setuptools
+sudo dnf rm setuptools
+sudo dnf rm setools
+bash
+poetry install
+poetry lock [--no-update]
+which python
+python -v
+python3 -v
+which python-3.10.7
+cd /usr/bin/
+rg python
+sudo dnf rm python-3.10
+sudo dnf rm meson
+dnf search setuptools
+poetry install
+poetry init
+ls
+poetry install
+poetry lock [--no-update]
+poetry install
+cd 
+cd pjs/python/elfotec/
+rm -r hair_colab/
+gh repo clone elfolabs/haircounting-poc4
+cd haircounting-poc4/
+code .
+poetry init
+sudo dnf meson
+poetry install meson
+poetry add meson
+poetry install
+sudo dnf install gcc-c++
+killall code
+cd
+clear
+cd pjs/python/elfotec/
+cd haircounting-poc4/
+which zellij
+code .
+killall code
+which julia
+nix-env -q julia
+nix-env -qa julia
+killall code
+cd pjs/python/elfotec/haircounting-poc4/
+hx hair.ipynb
+cd
+clear
+dnf search vscode
+dnf install code
+sudo dnf install code
+dnf install code
+sudo dnf install code
+dnf check-update
+cd pjs/python/elfotec/haircounting-poc4/
+clear
+code .
+config nu
+code .
+poetry init
+poetry add ipykernel
+poetry add psutil
+sudo dnf install python-devel
+dnf install python-devel
+sudo dnf install python-devel
+poetry rm meson
+poetry remove meson
+poetry lock [--no-update]
+poetry install
+poetry add psutil
+sudo dnf install setuptools
+sudo dnf install wheel
+sudo
+sudo dnf install gcc
+poetry env use 3.11
+cd ..
+rm -r haircounting-poc4/
+gh repo clone elfolabs/haircounting-poc4
+cd ..
+gh repo clone elfolabs/haircounting-poc4
+code haircounting-poc4/
+cd pjs/python/elfotec/haircounting-poc4/
+code .
+poetry init
+which python
+which pythoh
+clear
+python -v
+python
+python
+config nu
+$nu.config-path
+hx ~/.cache/starship/init.nu
+poetry add psutil
+gcc
+echo /bin/sh
+ls /bin/sh
+which python
+which python
+config nu
+code .
+poetry add psutil
+poetry add ipykernel
+poetry remove psutil
+poetry install
+bash
+poetry install --no-root
+vlc 
+nix-env -qa helix
+cd words/journal/
+clear
+hx 20
+br
+br
+which julia
+cd .
+cd
+cd UserInstalls/
+rm -r julia_1.8.2/
+julia
+cd
+nix-env -q julia
+nix-env -qa julia
+nix-env -i julia-1.8.2
+julia
+nix-env -e julia-1.8.2
+clea
+clear
+dnf search julia
+dnf search julia.x86_64
+dnf install julia
+sudo dnf install julia
+cd UserInstalls/
+curl https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.2-linux-x86_64.tar.gz
+curl https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.2-linux-x86_64.tar.gz -O julia
+curl --help
+curl https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.2-linux-x86_64.tar.gz -o julia
+ls
+julia
+./julia
+tar julia
+tar --help
+tar zxvf julia 
+ls
+rm julia-1.8.2-linux-x86_64.tar.gz
+./julia-1.8.2/bin/julia
+config nu
+julia
+clear
+which julia
+cargo
+hx .
+poetry install
+poetry install --no-root
+cd words/journal/
+clear
+cd ~/pjs/python/elfotec/haircounting-poc4/
+code .
+clear
+cls
+clear
+d
+ck
+d
+kkkk
+kkjkjkjk
+hx 21
+config nu
+hx 22
+cd words/journal/
+git dis
+git diff
+git diff origin main
+gitui
+sudo dnf install gitui
+gitui
+hx 22
+hx 21
+hx 23
+clear
+cd
+hx .config/helix/config.toml
+hx .config/helix/languages.toml
+cd .config/
+gitui
+clear
+cd
+cd pjs
+mkdir julia
+cd julia
+mkdir labce
+code labce
+hx words/journal/23
+cd pjs/python/elfotec/haircounting-poc4/
+cd
+clear
+poetry search label-studio
+pip search label-studio
+poetry install label-studio
+cd pjs/python/elfotec/haircounting-poc4/
+poetry install label-studio
+ls
+poetry init
+poetry install label-studio
+poetry add label-studio
+cd pjs/python
+cd elfotec/
+clear
+mkdir conversions
+code conversions/
+cd conversions/
+git clone https://github.com/ultralytics/JSON2YOLO.git
+ls;
+unzip archive.zip
+ls
+rm archive.zip
+clear
+ls
+mv -r coco/coco/ coco 
+mv coco/coco/ coco 
+mv coco/coco/ coco2 
+ls coco/
+rm coco/
+rm coco
+mv coco2 coco
+ls
+cd JSON2YOLO/
+pip install -r requirements.txt
+pip install --upgrade pip
+cd ..
+python ./JSON2YOLO/general_json2yolo.py -source coco -json_dir coco/annotations/
+python ./JSON2YOLO/general_json2yolo.py -source coco -json_dir ./coco/annotations/
+/usr/bin/python -m pip install -U flake8
+cd coco/
+python ./../JSON2YOLO/general_json2yolo.py -source coco -json_dir ./annotations
+python ./../JSON2YOLO/general_json2yolo.py -source coco -json_dir ./
+python ./../JSON2YOLO/general_json2yolo.py -source COCO -json_dir ./
+poetry install b/usr/bin/python -m pip install -U black
+pip install -U black
+python ./../JSON2YOLO/general_json2yolo.py -source COCO 
+pip uninstall black
+python ./../JSON2YOLO/general_json2yolo.py -source COCO 
+pip3 install pycocotools requests click
+cd 
+cd pjs/python/elfotec/conversions/
+git clone https://github.com/tw-yshuang/coco2yolo.git
+chmod +x coco2yolo
+./coco2yolo/ -ann-path coco/annotations/
+chmod +x ./coco2yolo/coco2yolo
+./coco2yolo/coco2yolo -ann-path coco/annotations/
+./coco2yolo/coco2yolo -ann-path coco/annotations/instances_xxx.json
+./coco2yolo/coco2yolo -ann-path <coco/annotations/instances_xxx.json>
+rm -r coco2yolo/
+pip install pylabel
+python
+hx --health python
+dnf install pylsp
+sudo dnf install pylsp
+hx --health python
+hx converter.py
+/usr/bin/python -m pip install -U black
+python converter.py
+python converter.py
+ /usr/bin/env /usr/bin/python /home/lucca/.vscode/extensions/ms-python.python-2022.18.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 33521 -- /home/lucca/pjs/python/elfotec/conversions/converter.py 
+ cd /home/lucca/pjs/python/elfotec/conversions ; /usr/bin/env /usr/bin/python /home/lucca/.vscode/extensions/ms-python.python-2022.18.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 32771 -- /home/lucca/pjs/python/elfotec/conversions/converter.py 
+/usr/bin/python /home/lucca/pjs/python/elfotec/conversions/converter.py
+/usr/bin/python /home/lucca/pjs/python/elfotec/conversions/coco/converter.py
+mv training/labels/ coco/train/
+mv training/labels/* coco/train/
+mv training/labels/** coco/train/
+mv training/labels/*.txt coco/train/
+mv training/labels/**.txt coco/train/
+mv training/labels/*.txt coco/train/
+/usr/bin/python
+/usr/bin/python /home/lucca/pjs/python/elfotec/conversions/converter.py
+mv training/labels/*.txt coco/val/
+clear
+clear
+mv coco/val/ ../haircounting-poc4/data
+cd ..
+cd haircounting-poc4/
+ls
+cd data
+ls
+mkdir val
+mv *.txt val
+mv *.jpg val
+ls
+cd val/
+ls
+mv coco/train ../haircounting-poc4/data
+cd ..
+ls
+cd train
+ls
+cd ..
+ls
+cd ..
+cd pjs/python/elfotec/haircounting-poc4/
+gitui
+git push origin main
+git pull
+git config pull.rebase false
+git pull
+xplr
+git push origin main
+xplr
+br
+clear
+hx --health yaml
+sudo dnf install yaml-language-server
+dnf search yaml
+sudo snap install yaml-language-server
+hx --health yaml
+cd data/
+ls
+hx data.yaml
+ls
+hx data.yaml
+br
+bat val/20170525152752000_X60.jpg
+bat val/20170525152752000_X60.txt
+cd 
+ls **
+cd pjs/python/elfotec/haircounting-poc4/
+ls **
+ls
+btom
+sudo dnf install nnn
+nnn
+sudo dnf rm nnn
+cd pjs/python/elfotec/haircounting-poc4/
+code .
+curl "https://app.roboflow.com/ds/QE9bzeLhHZ?key=ctuBxinqWH" -o roboflow.zip; unzip roboflow.zip; rm roboflow.zip
+curl "https://app.roboflow.com/ds/QE9bzeLhHZ?key=ctuBxinqWH" -o roboflow.zip
+curl "https://app.roboflow.com/ds/QE9bzeLhHZ?key=ctuBxinqWH" -o roboflow.zip; unzip roboflow.zip; rm roboflow.zip
+curl "https://app.roboflow.com/ds/QE9bzeLhHZ?key=ctuBxinqWH" -o roboflow.zip; unzip roboflow; rm roboflow.zip
+curl -L "https://app.roboflow.com/ds/QE9bzeLhHZ?key=ctuBxinqWH" -o roboflow.zip; unzip roboflow; rm roboflow.zip
+clear
+cd
+clear
+cd roboflow/
+dust
+cd pjs/python/elfotec/haircounting-poc4/
+ls
+cd data/
+ls
+cd ..
+git clone https://github.com/WongKinYiu/yolov7
+cd pjs/python/elfotec/haircounting-poc4/
+cd yolov7/
+tokei
+nix-env -qa tokei
+cargo install --list 
+nix-env -i tokei
+tokei
+cargo install cargo-binstall
+cargo binstall gitoxide
+cd
+dnf search perl-core
+dnf search pearl-core
+dnf search pearl-devel
+dnf search perl-devel
+sudo dnf install perl-devel
+cargo binstall gitoxide
+dnf search perl-core
+dnf search perl-base
+sudo dnf install perl
+which zellij
+cargo
+dnf
+hx .
+clear
+cd pjs/python/elfotec/haircounting-poc4/
+cd ..
+cd
+clear
+cargo binstall gitoxide
+ddddddd
+d
+hx .config/starship.toml
+cd .config/
+gitui
+git push origin main
+git pull
+git config pull.rebase false
+git pull
+git push origin main
+wl-paste | wl-copy
+cargo search nu
+cargo binstall --list
+cargo install --list
+cargo search zellj
+cargo search zellij
+wl-paste | wl-copy
+sudo dnf install wl-clipboard
+hx .config/nushell/env.nu
+cd
+hx .config/nushell/env.nu
+hx .config/nushell/config.nu
+lay4
+bash
+clear
+sls
+l;s
+ls
+hx .config/zellij/config.kdl
+nix-env -qa helix
+dsdfsd
+hx .config/zellij/config.kdl
+ls
+sudo dnf install fwupd
+sudo dnf upgrade
+sudo dnf install grub
+fwupdmgr
+fwupdmgr -h
+clear
+fwupdmgr get-updates
+efibootmgr -v
+sudo ls -lah /boot/efi/EFI/Boot/
+rm -r \EFI\ubuntu\shimx64.efi
+rm -r \boot\EFI\ubuntu\shimx64.efi
+ls /boot/efi/
+sudo ls /boot/efi/
+rm -r /boot/efi/EFI\ubuntu\shimx64.efi
+sudo rm -r /boot/efi/EFI/ubuntu/shimx64.efi
+clear
+su
+sudo fwupdmgr update
+efibootmgr -v
+sudo fwupdmgr update
+clear
+sudo fwupdmgr update
+clear
+sudo fwupdmgr update
+parted /dev/sdc
+sudo parted /dev/sdc
+lay1
+sudo parted /dev/sdc
+diskutil list
+sudo dnf install diskutil
+cd /run/media/lucca
+cd `for thewin2/`
+cd sources/
+cd ..
+rm -r /sources
+rm -r ./sources
+sudo rm -r ./sources
+chmod -R 777 sources/
+cd ..
+chmod -R 777 `for thewin2/`
+cd
+procs
+ps
+nix-env -qa procs
+nix-env -i procs
+kill --help
+procs
+procs search nautilus
+killall nautilus
+sudo fdisk -l
+sudo parted /dev/sdc
+sudo efibootmgr -v
+clear
+sudo efibootmgr -v
+cd pjs
+ls
+cd hugo/
+cd panaceia_site/
+ls
+hugo server -D
+cd pan_tella/
+cd
+julia
+clear
+cd pjs/hugo/panaceia_site/pan_tella/
+gitui
+ls themes
+cd themes
+ls
+cd ..
+ls
+cd content/
+ls
+hx about.md
+ls
+gitui
+cd ..
+gitui
+exi
+ls
+clear
+ls
+cd tmp/alacritty/
+cd
+clear
+cd pjs/rust/guessgame
+hx src/main.rs
+cd
+clear
+hx pjs/rust/guessgame/src/main.rs
+clear
+julia
+clear
+cd /home/lucca/Downloads/random
+hx Export-d6c65499-2c7a-4790-b0e3-4bf660a3ec93/
+nix-env -q
+cargo install --list
+cargo update nu
+cargo upgrade nu
+cargo install nu --locked
+clear
+nu --version
+cargo install zellij --locked
+clear
+5 + 6
+5^5
+4 / 12
+ [1, 2] ++ [3, 4]
+zellij --layout strider
+cd pjs/
+clear
+neofetch
+clear
+neofetch
+hx .config/neofetch/config.conf
+clear
+clear
+neofetch
+hx words/journal/24
+clear
+ [1, 2] ++ [3, 4]
+clear
+cd pjs/julia/labce/
+code .
+cd ..
+mv labce/ ce
+mkdir labce
+cd labce
+touch test.jl
+ls
+clear
+hx --health julia
+cd pjs/julia/ce/
+ls
+cd ../labce/
+code .
+julia exp1.jl
+hx exp1.jl
+hx 
+julia exp1.jl
+cd pjs/julia/ce/
+ls
+cd ../labce/
+ls
+clear
+ls
+julia exp1.jl
+hx --tutor
+julia exp1.jl
+hx exp1.jl
+hx .
+julia exp1.jl
+hx exp1.jl
+clear
+hx pjs/rust/guessgame/src/main.rs
+cd /home/lucca/Downloads/Datasets
+cd ~/pjs/python/elfotec/haircounting-poc4/
+hx test.py
+ls
+br
+cd
+clear
+5 % 3
+4 mod 3
+for x in [1 2 3] {x}
+for x in [1 2 3] {$x}
+for x in [1 2 3 4 5] {$x mod 2}
+for x in [1 2 3 4 5] {2 mod $x}
+for x in 1..20 {2 mod $x}
+for x in 1..20 {5 mod $x}
+for x in 1..20 {$x mod 5}
+for x in 1..20 {$x mod 2}
+for x in 1..20 {[$x mod 2, $x mod 5]}
+for x in 1..20 {[$x mod 2; $x mod 5]}
+for x in 1..20 {[$x mod 2, $x mod 5]}
+for x in 1..20 {$x mod 2 ++  $x mod 5}
+for x in 1..20 {$x mod 2 ++  [$x mod 5]}
+for x in 1..20 {[$x mod 2] ++  [$x mod 5]}
+for x in 1..20 { $'($x mod 2),($x mod 5)'}
+for x in 1..20 { $'($x mod 2), ($x mod 5)'}
+for x in 1..20 { $'($x mod 4), ($x mod 5)'}
+for x in 1..20 { $'(4 mod $x), ($x mod 5)'}
+for x in 1..20 { $'($x mod 4), ($x mod 5)'}
+for x in 1..20 { $'(($x mod 4)/$x), ($x mod 5)'}
+for x in 1..20 { $'(($x mod 4)/$x)), ($x mod 5)'}
+for x in 1..20 { $'(($x mod 4) / $x)), ($x mod 5)'}
+for x in 1..20 { $'(($x mod 4) / $x), ($x mod 5)'}
+for x in 1..20 { $'(($x mod 10)), ($x mod 5)'}
+for x in 1..20 { $'(($x / 2)), ($x / 5)'}
+for x in 1..20 { $'(($x / 10)), ($x / 5)'}
+for x in 1..20 { $'(($x // 10)), ($x // 5)'}
+for x in 1..20 { $'(($x // 10)), ($x mod 5)'}
+for x in 1..20 { $'(($x mod 2)), ($x mod 5)'}
+for x in 1..20 { $'(($x // 10)), ($x mod 5)'}
+for x in 0..19 { $'(($x // 10)), ($x mod 5)'}
+for x in 0..19 { $'(($x // 4)), ($x mod 5)'}
+for x in 0..19 { $'(($x // 4)), ($x mod 4)'}
+for x in 0..19 { $'(($x // (4 ** 4))), (($x // 4)), ($x mod 4)'}
+for x in 0..100 { $'(($x // (4 ** 4))), (($x // 4)), ($x mod 4)'}
+for x in 0..20 { $'(($x // (4 ** 4))), (($x // 4)), ($x mod 4)'}
+for x in 0..40 { $'(($x // (4 ** 4))), (($x // 4)), ($x mod 4)'}
+for x in 0..41 { $'(($x // (4 ** 4))), (($x // 4)), ($x mod 4)'}
+for x in 0..41 { $'(($x // (4 * 10))), (($x // 4)), ($x mod 4)'}
+for x in 0..41 { $'(($x // (4 * 10))), ((($x mod 10) // 4)), ($x mod 4)'}
+for x in 0..41 { $'(($x // (4 * 4))), ((($x mod 4) // 4)), ($x mod 4)'}
+for x in 0..41 { $'(($x // (4 * 4))), ((($x ) // 4)), ($x mod 4)'}
+for x in 0..41 { $'(($x // (4 * 4))), ((($x mod (4 * 10) ) // 4)), ($x mod 4)'}
+let n = 40; for x in 0..41 { $'(($x // (4 * 4))), ((($x mod (4 * 10) ) // 4)), ($x mod 4)'}
+let n = 40; for x in 0..41 { $'(($x // ($n * $n))), ((($x mod ($n * 10) ) // $n)), ($x mod $n)'}
+for x in 0..41 { $'(($x // (4 * 4))), ((($x mod (4 * 10) ) // 4)), ($x mod 4)'}
+let n = 40; for x in 0..41 { $'(($x // ($n * $n))), ((($x mod ($n * 10) ) // $n)), ($x mod $n)'}
+let n = 4; for x in 0..41 { $'(($x // ($n * $n))), ((($x mod ($n * 10) ) // $n)), ($x mod $n)'}
+let n = 4; for x in 0..$n { $'(($x // ($n * $n))), ((($x mod ($n * 10) ) // $n)), ($x mod $n)'}
+let n = 4; for x in 0..($n * 10) { $'(($x // ($n * $n))), ((($x mod ($n * 10) ) // $n)), ($x mod $n)'}
+let n = 4; for x in 0..($n * 100) { $'(($x // ($n * $n))), ((($x mod ($n * 10) ) // $n)), ($x mod $n)'}
+let n = 4; for x in 0..($n * 10) { $'(($x // ($n * $n))), ((($x mod ($n * 10) ) // $n)), ($x mod $n)'}
+let n = 4; for x in 0..($n * 40) { $'(($x // ($n * $n))), ((($x mod ($n * 10) ) // $n)), ($x mod $n)'}
+let n = 4; for x in 0..($n * 2 * 10 - 1) { $'(($x // ($n * $n))), ((($x mod ($n * 10) ) // $n)), ($x mod $n)'}
+let n = 3; for x in 0..($n * 2 * 10 - 1) { $'(($x // ($n * $n))), ((($x mod ($n * 10) ) // $n)), ($x mod $n)'}
+let n = 3; for x in 0..($n * 2 * 10 - 1) { $'(($x // ($n * $n))), ((($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+let n = 3; for x in 0..($n * 2 * 10 - 1) { $'(($x mod ($n ** 3) // ($n * $n))), ((($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+let n = 3; for x in 0..($n ** 2 - 1) { $'(($x mod ($n ** 3) // ($n * $n))), ((($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+let n = 4; for x in 0..($n ** 2 - 1) { $'(($x mod ($n ** 3) // ($n * $n))), ((($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+let n = 6; for x in 0..($n ** 2 - 1) { $'(($x mod ($n ** 3) // ($n * $n))), ((($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+let n = 6; echo 'x, y, z'; for x in 0..($n ** 2 - 1) { $'(($x mod ($n ** 3) // ($n * $n))), ((($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+let n = 6; echo 'i : x, y, z'; for x in 0..($n ** 2 - 1) { $'(($x mod ($n ** 3) // ($n * $n))), ((($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+let n = 3;  for x in 0..($n ** 2 - 1) { $'(($x mod ($n ** 3) // ($n * $n))), ((($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+cd pjs/julia/labce/
+gitui
+cd ../..
+cd python/elfotec/haircounting-poc4/
+gitui
+cd ../../..
+ls
+cd hugo/panaceia_site/pan_tella/
+gitui
+let n = 13;  for x in 0..($n ** 2 - 1) { $'(($x mod ($n ** 3) // ($n * $n))), ((($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+let n = 13;  for x in 0..($n ** 2 - 1) { '(($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+let n = 13;  for x in 0..($n ** 2 - 1) { $' ((($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+let n = 4;  for x in 0..($n ** 2 - 1) { $' ((($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+let n = 6;  for x in 0..($n ** 2 - 1) { $' ((($x mod ($n * $n) ) // $n)), ($x mod $n)'}
+sudo service Bluetooth restart
+sudo rmmod btusb
+sudo systemctl enable Bluetooth
+cd
+clear
+def "loop indices" [n: int] {<\n>  let n2 = $n * $n<\n><\n>  for x in 0..($n2 - 1) {<\n>    {<\n>      first:(($x mod $n2) // $n)<\n>      second:($x mod $n)<\n>    }<\n>  }<\n>}
+loop indices 5
+loop indices 55
+loop indices 9
+sudo dnf upgrade
+loop indices 5
+sudo systemctl enable Bluetooth
+sudo service Bluetooth restart
+rfkill unblock Bluetooth
+nmcli radio all; rfkill list all
+clear
+nix-env -qa
+nix-env -q
+360 / 14
+360 / 13
+360 / 2
+def "loop indices" [n: int] {<\n>  let n2 = $n * $n<\n><\n>  for x in 0..($n2 - 1) {<\n>    {<\n>      first:(($x mod $n2) // $n)<\n>      second:($x mod $n)<\n>    }<\n>  }<\n>}
+loop indices 5
+loop indices 7
+2000/3
+2000 / 3
+2000 / 3 * 2
+2300 + 20500 + 6500
+23000 + 20500 + 6500
+50000 * 0.95
+14600 * 0.95
+9700 * 0.95
+4800 * 0.95
+15000 * 0.95
+8000 + 600 + 1300
+9900 * 0.95
+50000 * 0.92
+15000 * 0.92
+10000 * 0.92
+5000 * 0.92
+400 * 12
+600 * 12
+4000 * 12
+1000 * 4
+12000 * 4
+2000 * 12
+2000 * 14
+15000 * 4
+48000 + 4000 + 7200
+48000 + 4800 + 7200
+60000 * 0.92
+44000 + 4000 + 7000
+55000 * 0.92
+2000 * 14
+1000 * 4 * 1.5
+12000 * 4
+44000 + 6000 + 28000
+15000 * 4
+2000 * 7
+44000 + 6000 + 14000
+64000 * 0.92
+24000 * 4
+2000 * 4
+44000 + 6000 + 8000
+(44000 + 6000 + 8000) * 0.92
+clear
+cd pjs/julia/labce/
+julia exp1.jl
+48000 + 800 + 12000
+48000 + 8000 + 12000
+48000 + 10000 + 12000
+(48000 + 10000 + 12000) * 0.92
+julia exp1.jl
+100 / 12
+100 / 12 / 4.5
+loop indices 4
+config nu
+idx 5
+idx 4
+config nu
+idx 5 2 
+idx2 5 2 
+idx2 2 6 
+config nu
+idx2 2 6 
+idx2 3 6 
+config nu
+idx2 2 10
+idx2 10 2
+idx2 10 3
+idx2 2 10
+config nu
+get idxs 5 2
+get idxs 2 9
+get idxs 5 3
+config nu
+get idxs 5 3
+get idxs 2 7
+config nu
+get idxs 2 7
+get idxs 4 7
+config nu
+get idxs 4 7
+config nu
+get idxs 4 7
+get idxs 7 4
+config nu
+clear
+julia exp1.jl
+get idxs 2 10
+julia exp1.jl
+cd
+clea
+clear
+hx .
+clear
+cd
+hx pjs/rust/guessgame/src/main.rs
+hx .config/helix/languages.toml
+cd .cache/helix/
+rm -r helix.log
+cd
+hx .config/helix/languages.toml
+ clear
+rustup help
+rustup update
+hx pjs/rust/guessgame/src/main.rs
+which cargo
+which rustup
+hx --health rust
+rm -r ~/.cache/helix/helix.log
+config nu
+hx --log-open
+hx pjs/rust/guessgame/src/main.rs
+cd pjs/rust/guessgame/
+4 * 100 / 60
+4 * 150 / 60
+250/30
+250 / 30
+8 / 5
+2484 * 3
+2484 * 2
+hx .
+cd
+clear
+cd /run/user/1000/gvfs/google-drive:host=gmail.com,user=elfotec1ia/0AGT3L0lyh06YUk9PVA/1XuUa80ed8-EKJLxnvXd0kdEy_9fOAZxT/1lr8YlpeUc6EhIkMLoshEOd_lr7sHfUpt
+clear
+cd /run/user/1000/gvfs/google-drive:host=gmail.com,user=elfotec1ia/0AGT3L0lyh06YUk9PVA/1XuUa80ed8-EKJLxnvXd0kdEy_9fOAZxT/1lr8YlpeUc6EhIkMLoshEOd_lr7sHfUpt
+ls
+cd /run/user/1000/gvfs/google-drive:host=gmail.com,user=elfotec1ia/0AGT3L0lyh06YUk9PVA/1XuUa80ed8-EKJLxnvXd0kdEy_9fOAZxT/1lr8YlpeUc6EhIkMLoshEOd_lr7sHfUpt
+ls
+cd
+clear
+cd /run/user/1000/gvfs/google-drive:host=gmail.com,user=elfotec1ia
+ls
+bash
+clear
+nix-env -i rclone
+rclone config
+rclone ls
+rclone ls remote:
+rclone ls remote:drive
+rclone ls drive:
+rclone ls drive:MyDrive
+ rclone ls drive:MyDrive
+ rclone ls drive:
+rclone ls drive:
+rclone ls elfotec
+rclone ls elfotec:
+clear
+rclone size elfotec:AI/roots_detect_n_count/iter1
+rclone size elfotec:AI/roots_detect_n_count/iter1/runs
+rclone help
+rclone tree elfotec:AI/roots_detect_n_count/iter1/runs
+nix-env -qa tealdeer
+fzf
+cargo install tealdeer --locked
+nix-env -qa skim
+cd .config/
+hx helix/languages.toml
+cargo install --locked skim
+cd
+sk
+tldr skim
+tldr --update
+tldr skim
+tldr sk
+sk as
+sk --query "as"
+sk -i
+sk -1
+sk -i -c 
+rg | sk
+rg as  | sk
+clear
+rg as  | sk
+clear
+hx --health cpp
+sudo dnf install clangd
+npm
+sudo dnf search clangd
+sudo dnf search clang-tools
+sudo dnf install clang-tools
+sudo dnf install clang-tools-extra
+hx --health cpp
+glxgears
+/sbin/lspci | grep -e VGA
+/sbin/lspci | grep -e 3D
+glxinfo | grep -i vendor
+lspci | grep -i nvidia
+bat /sys/bus/pci/devices/0000:01:00.0/power/runtime_status
+nvidia-smi
+bat /sys/bus/pci/devices/0000:01:00.0/power/runtime_status
+lspci | grep -i nvidia
+glxinfo | grep -i vendor
+lsmod | grep nvidia
+journalctl --since today | grep gnome-shell | grep nvidia
+nvidia-smi
+sudo dnf search nvidia-dkms
+nvidia-smi
+journalctl --since today | grep gnome-shell | grep nvidia
+lsmod | grep nvidia
+dnf install dnf-plugins-core -y
+sudo dnf install dnf-plugins-core -y
+dnf copr enable t0xic0der/nvidia-auto-installer-for-fedora -y
+sudo dnf copr enable t0xic0der/nvidia-auto-installer-for-fedora -y
+neofetch
+inxi -g
+sudo dnf install akmod-nvidia
+lsmod | grep nvidia
+journalctl --since today | grep gnome-shell | grep nvidia
+nvidia-smi
+neofetch
+hx .config/neofetch/config.conf
+neofetch
+journalctl -b 0 --grep "renderer for"
+sudo dnf -y install cuda
+sudo dnf install xorg-x11-drv-nvidia-cuda
+modinfo -F version nvidia
+grubby --update-kernel=ALL --args='nvidia-drm.modeset=1'
+sudo grubby --update-kernel=ALL --args='nvidia-drm.modeset=1'
+sudo dnf remove \*nvidia\*
+sudo dnf install kernel-devel
+find /lib/modules/uname -r/ -iname nvidia*
+k
+cleasr
+clear
+dmesg
+bash
+sudo dnf install kmodtool akmods mokutil openssl
+sudo kmodgenca -a
+sudo mokutil --import /etc/pki/akmods/certs/public_key.der
+reboot
+=bash
+reboot
+lsmod | grep nvidia
+nvidia-smi
+sudo dnf upgrade --refresh
+sudo dnf install kernel-devel
+sudo akmod
+sudo dnf install akmod-nvidia
+lsmod | grep nvidia
+nvidia-smi
+journalctl -b 0 --grep "renderer for"
+journalctl --since today | grep gnome-shell | grep nvidia
+glxinfo | grep -i vendor
+nvidia-smi
+bash
+=
+cler
+clear
+cd pjs/python/
+mkdir randAI
+cd randAI/
+poetry init
+ls
+poetry add tensorflow
+hx pyproject.toml
+poetry add tensorflow
+env use 3.10
+poetry env use 3.10
+hx pyproject.toml
+poetry env use 3.10
+poetry add tensorflow
+t.py
+ls
+python t.py
+hx t.py
+poetry install
+clear
+python t.py
+python3 t.py
+python
+bat pyproject.toml
+which python
+python -v
+poetry run
+poetry run t.py
+poetry run python t.py
+poetry run python t.py
+hx t.py
+poetry run python t.py
+bash
+cd /usr/local/cuda-11.8/
+ls
+rg libcuda
+ls --tree
+ls --files
+ls --help
+ls -f
+ls bin
+ls share/
+$env.LD_LIBRARY_PATH
+ls lib64/
+config nu
+cd lib64/
+pwd
+cd ../../..
+cd lib64/
+pwd
+config nu
+cd ~/pjs/python/randAI/
+poetry run python t.py
+cd ~/pjs/python/randAI/
+poetry run python t.py
+cd
+clear
+cd ~/pjs/python/randAI/
+poetry add tensorflow-gpu
+hx pyproject.toml
+poetry install
+poetry run python t.py
+sudo dnf install libcudann8
+sudo dnf install libcudnn8
+sudo dnf search libcudnn
+poetry add cudnn
+poetry add libcudnn
+poetry add libcudnn8
+config nu
+cd /home/lucca/Downloads/random
+ls
+sudo rpm -i cudnn-local-repo-rhel8-8.6.0.163-1.0-1.x86_64.rpm
+sudo dnf clean all
+config nu
+sudo dnf install libcudnn8-8.6.0.163-1.0-1.cuda11.8
+sudo dnf install libcudnn8-8.6.0.163-1.cuda11.8
+sudo dnf install libcudnn8-devel-8.6.0.163-1.cuda11.8
+sudo dnf install libcudnn8-samples-8.6.0.163-1.cuda11.8
+poetry run python t.py
+hx t.py
+cd /sys/bus/pci/devices/<PCI_ID>/
+lspci | grep -i nvidia
+cd /sys/bus/pci/devices/01:00.0/
+cd /sys/bus/pci/devices/0000:01:00.0/
+ls
+hx numa_node
+cd
+cd pjs/python/randAI/
+poetry run python t.py
+hx t.py
+poetry run python t.py
+su
+cd
+clear
+nvidia-smi
+nvcc --version
+nvcc -ccbin gcc-11
+config nu
+cd /usr/local/cuda-11.8/
+ls
+ls bin
+pwd
+config nu
+nvidia-smi
+nvcc
+nvcc -ccbin gcc-11
+clear
+cd /usr/local/cuda-11.8/
+cd bin/
+pwd
+config nu
+nvidia-smi
+nvcc --version
+sudo dnf install xorg-x11-drv-nvidia-cuda
+sudo dnf search cuda
+cd /usr/local/cuda-11.8/
+nvidia-smi
+cd bin
+nvidia-smi
+ls
+cd ..
+cd tools/
+ls
+cd ..
+cd nsightee_plugins/
+ls
+cd ..
+cd share/
+ls
+cd gdb/
+ls
+cd ..
+ls -f
+clear
+cd pjs/hugo/panaceia_site/
+cd pan_tella/
+clear
+rg as  | sk
+rg logo | sk
+ls
+hx .
+cd static/img/logo/
+lapce .
+sudo dnf copr enable titaniumtown/lapce
+sudo dnf install lapce
+clear
+cd ../../..
+hx .
+cd static/img
+ls
+cd logo
+ls
+cd ../../..
+cd data/
+ls
+cd data
+ls
+mv slide.json ../slide.json
+mv slide.json ../slide.json -f
+pwd
+pwd | wl-copy
+mv slide.json ../slide.json -f
+hx .
+lay1
+lay4
+cd
+lay1
+hx .config/zellij/lay1.kdl
+lay1
+lay4
+lay1
+lay4
+lay1
+hugo server -D
+cd
+cleaar
+clerar
+clear
+clear
+hx .
+cd pjs/python/elfotec
+hx --health ipynb
+lapce .
+cd /home/lucca/work/elfotec
+cd pjs
+mkdir ipynb
+mv roots_detect_n_count_1.ipynb ~/pjs/ipynb/
+cd ~/pjs/ipynb/
+code roots_detect_n_count_1.ipynb
+md roots_count2
+mkdir roots_count2
+mv roots_detect_n_count_1.ipynb ./roots_count2/
+code roots_count2/
+poetry init
+poetry add torch
+poetry install
+ls
+pip install --upgrade pip
+poetry add torchvision
+poetry add torchvision@1.12
+poetry install
+poetry env use 3.10
+poetry install
+poetry env use 3.10
+poetry env use 3.10.8
+poetry install
+poetry lock
+poetry install
+poetry help
+poetry cache --help
+poetry cache clear
+poetry clear cash
+poetry clear cache
+poetry cache clear
+poetry list
+poetry cache list
+poetry cache clear
+poetry cache clear PyPI
+poetry cache clear --all
+poetry cache clear 
+poetry cache clear PyPI --all
+poetry cache clear _default_cache --all
+poetry add torchvision@1.12.0
+poetry add torch@1.12.0
+poetry install
+poetry install --no-root
+which torch
+torch --v
+cd ..
+cd roots_count2/
+poetry install 
+poetry purge torch
+poetry rm torch
+poetry remove torch
+poetry init
+poetry lock
+poetry install
+poetry add torch@1.11.0
+poetry add torchvision@0.12.0
+poetry install
+poetry install --no-root
+pip install torch===1.11.0 torchvision===0.12.0
+poetry env use 3.9
+cd /usr/bin
+rg python | sk
+ls
+which python
+which python3
+python3 --version
+python --version
+python3.10 -version
+python3.10
+python -v
+poetry install
+python -v
+python --version
+cd
+clear
+sudo dnf update
+sudo dnf update --best --allowerasing
+sudo dnf distro-sync
+sudo dnf remove xorg-x11-drv-nvidia-power-3:520.56.06-1.fc37.x86_64
+sudo dnf distro-sync
+rg egl-gbm-1.1.0-3.fc37.x86_64
+find egl-gbm-1.1.0-3.fc37.x86_64
+sudo dnf remove egl-gbm-1.1.0-3.fc37.x86_64
+sudo dnf --refresh 
+sudo dnf clean dbcache
+sudo dnf distro-sync
+sudo dnf remove nvidia-driver-libs-3:520.61.05-1.fc35.x86_64
+sudo dnf remove egl-gbm-1.1.0-3.fc37.x86_64
+sudo dnf update --best --allowerasing
+sudo dnf distro-sync
+sudo dnf install akmod-nvidia
+sudo dnf install nvidia-settings
+lspci | grep VGA
+lspci | grep ED
+lspci | grep 3D
+inxi -Fzx
+bat /usr/share/X11/xorg.conf.d/nvidia.conf
+find nvidia.conf
+cd /usr/share/
+find nvidia.conf
+cd X11
+cd xorg.conf.d
+ls
+cd
+clear
+sqrt 3
+33 ** (1 / 2)
+let L = 5; let C = 5; (L * C) ** (1 / 2)
+let l = 5; let c = 5; (l * c) ** (1 / 2)
+let l = 5; let c = 5; (l ) ** (1 / 2)
+let l = 5; let c = 5; (c ) ** (1 / 2)
+let-env l = 5; let-env c = 5; (c ) ** (1 / 2)
+let l = 5; let c = 5; ($l * $c) ** (1 / 2)
+let l = 4; let c = 0.01; ($l * $c) ** (1 / 2) * 2
+let l = 4; let c = 0.01; (($l * $c) ** (1 / 2)) * 2
+let l = 4; let c = 0.01; (2 * $l) / (($l * $c) ** (1 / 2))
+cd pjs/rust/guessgame
+hx  src/main.rs
+get idxs 5 3
+config nu
+clear
+cargo install --list
+cargo install onefetch
+onefetch
+cd pjs
+cd rust/guessgame/
+onefetch
+tokei
+cd ../..
+ls
+ls **
+cd python/elfotec/haircounting-poc4/
+toke
+tokei
+onefetch
+cd ../..
+ls
+cd ..
+ls
+md
+mkdir md
+cd md
+gh repo clone luccahuguet/cool_rust
+rm -r cool_rust/
+ls
+cargo install --list
+gix clone https://github.com/luccahuguet/cool_rust.git
+gix clone https://github.com/luccahuguet/cool_rust.git cool_rust
+ls
+cd cool_rust/
+git pull
+onefetch
+ls
+hx README.md
+giui
+gitui
+hx README.md
+gitui
+hx README.md
+gitui
+hx README.md
+gitui
+hx README.md
+gitui
+hx README.md
+gitui
+tokei
+cd ..
+cd hugo/panaceia_site/pan_tella/
+cd ..
+cd pan_tella/
+onefetch
+gitui
+clear
+cd
+sudo dnf install  egl-wayland  
+exercism download --exercise=hello-world --track=cpp
+cd snap/exercism/5/exercism/
+ls
+cd cpp/
+cd hello-world/
+clear
+cd 
+cd snap/exercism/5/exercism/cpp/hello-world/
+gcc -o hello_world.cpp
+gcc -o hw hello_world.cpp
+g++ -o hw hello_world.cpp
+g++ -o hwt hello_world_test.cpp
+g++ hw -o hello_world.cpp
+g++ -o hw hello_world.cpp
+hx hello_world.cpp
+ls
+cd .
+cd ..
+rm -r hello-world
+ls
+exercism download --exercise=hello-world --track=cpp
+ls
+cd hello-world/
+ls
+clear
+ls
+clear
+g++ -o hw hello_world.cpp
+ls
+cmake -G hello_world.cpp
+gcc help
+gcc
+g++
+g++ help
+cd
+cd pjs/
+mkdir cpp
+cd cpp
+hx test.cpp
+gcc -o test test.cpp
+g++ -o test test.cpp
+./test
+gcc --version
+cd
+cd snap/exercism/5/exercism/cpp/hello-world/
+cmake -G
+cmake -G "Unix Makefiles"
+cmake -G "Unix Makefiles" ..
+ls
+cmake -G "Unix Makefiles" .
+ls
+mkae
+make
+exercism submit hello_world.cpp
+hx hello_world.cpp
+cd
+cd pjs/julia/labce/
+cd
+clear
+ls
+cd pjs/julia/labce/
+julia
+cd
+clear
+cd pjs/julia/labce/
+julia exp2.jl
+bat functions.jl
+bat functions.jl | wl-copy 
+env | grep -E "DISPLAY|SWAY|XDG_SESSION_TYPE"
+sudo dnf upgrade
+journalctl --since today | grep gnome-shell | grep nvidia
+journalctl --since today | grep gnome-shell
+journalctl --since today 
+journalctl help
+journalctl --help
+journalctl --since 
+journalctl --since --help
+bat  /etc/modprobe.d/blacklist.conf
+bat  /etc/modprobe.d/lockd.conf
+bat  /etc/modprobe.d/nvdimm-security.conf
+bat /usr/share/X11/xorg.conf.d/nvidia.conf
+bat /usr/share/X11/xorg.conf.d/71-libinput-overrides-wacom.conf
+sudsudo dnf install vulkan
+sudo dnf install vulkan
+sudo dnf install inxi
+inxi -Fzx
+dmesg | grep -iE 'secure|nvidia|nouveau'
+bat /boot/grub2/
+su
+sudo dnf remove *nvidia*
+inxi -Fzx
+dmesg | grep -iE 'secure|nvidia|nouveau'
+kernel debug output
+inxi -Fzx
+journalctl --since today | grep gnome-shell
+env | grep -E "DISPLAY|SWAY|XDG_SESSION_TYPE"
+sudo dnf update
+sudo nano /etc/modprobe.d/blacklist.conf
+cd /etc/modprobe.d/
+ls
+bat kvm.conf
+bat lockd.conf
+bat vhost.conf
+bat atm-blacklist.conf
+bat nfc-blacklist.conf
+bat rds-blacklist.conf
+bat ax25-blacklist.conf
+vat batman-adv-blacklist.conf
+cd
+ls /etc/default/grub
+ls /etc/default/useradd
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+clear
+cd pjs/julia/labce/
+julia exp2.jl
+hx exp1.jl
+clear
+70 / 12
+36 / 12
+36 / 15
+cd pjs/julia/cde
+cd pjs/julia/ce
+julia list1.jl
+julia 
+julia list1.jl
+julia
+julia list1.jl
+julia 
+julia list1.jl
+julia 
+julia --project=.
+julia list1.jl
+hx list1.jl
+clear
+cd
+clear
+clear
+cd
+clear
+7.4 * 3.4
+7.4 * 6
+68.4 / 22.16
+dmesg | grep -iE 'secure|nvidia|nouveau'
+cd pjs/julia/ce
+onefetch
+cd ../labce/
+gh repo create
+gix init
+gix help
+git init
+gh repo create
+cd pjs/julia/ce
+cd ../labce/
+julia exp2.jl
+uuu
+julia exp2.jl
+9 / 15
+hx exp2.jl
+gitui
+git help
+gh repo help
+gh repo create
+sudo snap install journey
+hx .
+:q
+quit
+quit!
+sudo dnf install nvidia-settings
+sudo dnf remove nvidia-settings
+cargo install grex
+grex -c asdjkfjsdkfj
+grex -c asdjkkkkk
+grex -c asdjkkkkk kkkk sasds
+grex -c asdjkkkkk: " kkkk sasds"
+grex -c "sdfasdf" "sdkfjsdkfjd" "aaaaaaa"
+cd pjs/julia
+mkdir nota
+cd nota/
+julia main.jl
+julia 
+julia main.jl
+julia
+julia main.jl
+cd pjs/julia
+cd labce/
+nix-env -qa julia
+nix-env -q
+cd
+cd UserInstalls/
+ls
+curl https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.3-linux-x86_64.tar.gz -o
+curl https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.3-linux-x86_64.tar.gz
+curl https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.3-linux-x86_64.tar.gz -o -
+curl -L https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.3-linux-x86_64.tar.gz 
+curl --help
+wget https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.3-linux-x86_64.tar.gz
+tldr tar
+ls
+unzip 
+unzip julia-1.8.3-linux-x86_64.tar.gz
+tar xf julia-1.8.3-linux-x86_64.tar.gz
+ls
+ls julia-1.8.3/
+rm julia
+julia
+rm -r julia-1.8.2/
+rm -r libdrm-2.4.113.tar.xz
+ls
+rm -r libdrm-2.4.113/
+ls old/
+rm -r old/
+ls
+rm -r Hyprland/
+sudo rm -r Hyprland/
+ls
+mv julia-1.8.3/ julia
+ls
+rm -r julia-1.8.3-linux-x86_64.tar.gz
+ls
+config nu
+julia
+clear
+ls
+rm `exp2 backup 1.jl`
+ls
+julia exp2.jl
+cp exp2.jl pluto.jl
+hx pluto.jl
+hx .
+hx note_exp2.jl
+julia note_exp2.jl
+julia pluto.jl
+bat note_exp2.jl
+gitui
+:q
+quit
+sudo hx /etc/dnf/dnf.conf
+hx /etc/dnf/dnf.conf
+clear
+su nu
+su
+ucrecio3257
+su
+clear
+sudo dnf update
+clear
+sudo
+sudo -s
+sudo -s (which nu)
+which nu
+sudo -s (which nu).path
+sudo -s ((which nu).path)
+sudo -s /home/lucca/.cargo/bin/nu
+which (config nu)
+sudo -s
+sudo -s /home/lucca/.cargo/bin/nu
+sudo -s //home//lucca//.cargo//bin//nu
+sudo -s \/home\/lucca\/.cargo\/bin\/nu
+sudo -s /home/lucca/.cargo/bin/nu
+sudo -s '/home/lucca/.cargo/bin/nu'
+env.$EDITOR
+$env.EDITOR
+sudo -s env PATH=$PATH
+sudo env PATH=$PATH
+enb
+env
+$env.PATH
+sudo -s
+visudo
+sudo visudo
+hx /etc/sudoers
+sudo -s
+sudo -se
+sudo -s -e
+sudo -s -E
+sudo -s -i
+sudo -i
+sudo -e
+sudo --preserve-env=PATH env | grep PATH 
+ls
+whoami
+sudo --preserve-env=PATH env
+sudo -
+su -
+su --help
+su -ls
+su -l -s
+su - -s
+su -l -s (which nu)
+which nu
+su -l -s (which nu | get path)
+sudo -s (which nu | get path)
+sudo -h
+sudo -s -E
+hx .config/nushell/config.nu
+$env.config
+hx .config/nushell/env.nu
+config nu
+hx
+hx pjs/md/cool_rust/
+hx .config/starship.toml
+clear
+cd pjs/julia/labce/
+hx .cache/starship/init.nu
+cd pjs/julia/labce/
+hx exp1.jl
+hx ~/.cache/starship/init.nu
+cd ../..
+cd python/
+ls
+cd ran
+cd randAI/
+hx .
+hx rand.py
+cd
+clera
+clear
+cd pjs/julia/labce/
+1 / 40 * 0.001
+cd pjs/python/elfotec
+sudo dnf update
+clear
+gh repo clone elfolabs/smarthair-api
+cd smarthair-api/
+lapce .
+clear
+gh repo clone WongKinYiu/yolov7
+gix clone https://github.com/WongKinYiu/yolov7
+gix clone https://github.com/WongKinYiu/yolov7 yolov7
+cd yolov7/
+pip install requirements.txt
+pip install -r requirements.txt
+cd ..
+mv yolov7/requirements_yolov7.txt ./
+cd ..
+cd randAI/
+bat t.py
+touch torchtest.py
+python torchtest.py
+pip install torch===1.11.0
+hx torchtest.py
+pip --help
+pip list torch
+cd ..
+ls
+cd conversions/
+ls
+cd ..
+mkdir yolov7play
+cd yolov7play/
+ls
+python torchtest.py
+pip install torch
+python torchtest.py
+poetry init
+cd ..
+code elfotec/smarthair-api/
+pip install requirements_yolov7.txt
+pip install -r requirements_yolov7.txt
+pip install torchvision
+pip install -r requirements_yolov7.txt
+poetry init
+cd 
+cd /usr/lib/
+ls
+ls python
+rg python | sk
+ls python3.10/
+which python
+python 3.10
+python3.10
+poetry install
+poetry env use 3.7.15
+sudo dnf install python3.7
+poetry install
+pip install -r requirements_yolov7.txt
+poetry add torchvision@0.13.1+cu113
+cd
+cd pjs/python/elfotec/smarthair-api/
+poetry add torchvision@0.13.1
+poetry install
+pip install -r requirements_yolov7.txt
+pip rm torch
+pip uninstall torch
+poetry install 
+pip install -r requirements_yolov7.txt
+poetry install
+gitui
+hx main.py
+poetry init
+poetry check
+cd ..
+cd yolov7play/
+poetry check
+poetry add ipython
+poetry add ipython@7.9.0
+hx pyproject.toml
+poetry env use 3.7.15
+poetry install
+poetry add psutil
+poetry add thop
+poetry install
+poetry add thop
+poetry env use 3.7.15
+hx main.py
+cd ..
+cd python/
+cd randAI/
+cp torchtest.py ./../elfotec/yolov7play/
+cd ..
+mv elfotec/yolov7play/ ./
+cd yolov7play/
+poetry run python torchtest.py
+poetry env use 3.7.15
+poetry run python torchtest.py
+poetry install
+poetry run python torchtest.py
+hx pyproject.toml
+cd ..
+cd yolov7play/
+hx yolov7test.py
+poetry run python main.py
+poetry add google.colab
+ls
+git clone https://github.com/WongKinYiu/yolov7
+poetry run python yolov7/detect.py --weights ./best.pt --conf 0.2 --source ./kaggle_test/kaggle_13/20170525152752000_X60.jpg 
+code .
+hx main.py
+poetry install
+poetry run python yolov7/detect.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+cd yolov7/
+poetry run python ./detect.py --weights ./../yolov7_custom/best.pt --conf 0.2 --source ./../yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+poetry run python ./../detect_elfo.py --weights ./../yolov7_custom/best.pt --conf 0.2 --source ./../yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+poetry run python ./detect_elfo.py --weights ./../yolov7_custom/best.pt --conf 0.2 --source ./../yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+sudo dnf install ffmpeg
+cd obs/
+ffmpeg -i `2022-11-28 11-02-48.mkv` -codec fedora37demo.mp4
+ls
+ffmpeg -i `2022-11-28 11-02-48.mkv` -codec copy fedora37demo.mp4
+sl
+ls
+cd
+cd pjs/python/yolov7play/
+sudo dnf remove akmod-nvidia
+python torchtest.py
+poetry run python torchtest.py
+cd pjs/python/
+ls
+cd elfotec/
+ls
+code .
+cd smarthair-api/
+code .
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+poetry help
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg --no-cache
+poetry --no-cache run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+poetry cache clear _default_cache --all
+poetry cache clear 
+poetry cache list
+poetry cache PyPI clear --all
+poetry cache clear PyPI --all
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg --no-cache
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+poetry cache clear --all
+cd
+cd ~/.cache/pypoetry
+ls
+cd vir
+cd virtualenvs/
+ls
+rm -r ./
+cd ..
+rm -r virtualenvs/
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+poetry install
+poetry env use 3.7.15
+poetry install
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+poetry install
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+poetry install
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+cd
+cd pjs/python/elfotec/smarthair-api/
+gitui
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+hx .
+gitui
+git branch
+git switch wiki
+git switch -c wiki -
+git switch -c wiki
+ls
+git pull
+clear
+git push origin main
+git reset --soft HEAD~1
+cd pjs/python/elfotec/smarthair-api/
+code .
+git push origin main
+cd yolov7_custom/
+tokei
+cd ..
+tokei
+cd yolov7_custom/
+cd yolov7/
+tokei
+git push origin wiki
+onefetch
+cd ../..
+onefetch
+git push origin wiki
+cd 
+cd pjs/hugo/panaceia_site/
+git reset --soft HEAD~1
+hugo server -D
+cd pan_tella/
+hx .
+rg logo | sk
+ls
+cd content/
+ls
+cd content/
+ls
+cd ..
+rm -r content/
+ls
+bat _index.md
+bat about.md
+cd ..
+ls
+ls public/
+rg icon | sk
+hx .
+cd static/
+ls
+rm favicon-32x32.png
+hugo server -D
+cd img/
+ls
+cd logo/
+ls
+cd ../../..
+code .
+mv static/img/logo/logo_blue_tr.png static/
+cp static/logo_blue_tr.png static/img/logo/
+mv static/logo_blue_tr.png static/favicon-32x32.png
+git pull
+ git config pull.rebase false
+git pull
+ls static/
+cp static/favicon-32x32.png static/favicon-16x16.png
+ls
+rm -r exampleSite/
+tokei
+onefetch
+gitui
+cd
+cd pjs/python/elfotec/smarthair-api/
+hx docs/README.md
+gitui
+git pull
+git config --global user.name "luccahuguet"
+git config --global user.email "lucca.huguet2@gmail.com"
+git push origin main
+cd pjs/python/elfotec/smarthair-api/
+code .
+pip install -r requirements.txt
+poetry env use 3.7.15
+pip install -r requirements.txt
+poetry install
+cd
+sudo dnf remove akmod-nvidia
+poetry add  uWSGI@2.0.20
+poetry add  uWSGI
+poetry add Rtree@1.0.0
+poetry add Flask@2.1.2
+python3 setup.py install
+python setup.py install
+hx .config/helix/languages.toml
+cd pjs/md/
+gh repo create luccahuguet
+gh repo create
+cd luccahuguet/
+ls
+git pull
+ls
+git fetch
+git branch
+cd ..
+cd luccahuguet/
+ls
+cd ..
+rm -r luccahuguet/
+gix clone https://github.com/luccahuguet/luccahuguet.git
+gix clone https://github.com/luccahuguet/luccahuguet.git luccahuguet
+cd luccahuguet/
+ls
+hx README.md
+gitui
+hx README.md
+clear
+cd
+clear
+cargo upgrade nu
+cargo update nu
+cargo update --help
+cargo update -p nu
+cargo install nu --locked
+cargo install --list
+$env.config | do { { ls: { use_ls_colors: $in.use_ls_colors clickable_links: $in.show_clickable_links_in_ls } rm: { always_trash: $in.rm_always_trash } cd: { abbreviations: $in.cd_with_abbreviations } table: { mode: $in.table_mode index_mode: $in.table_index_mode trim: $in.table_trim } history: { max_size: $in.max_history_size sync_on_enter: $in.sync_history_on_enter file_format: $in.history_file_format } completions: { case_sensitive: $in.case_sensitive_completions quick: $in.quick_completions partial: $in.partial_completions algorithm:$in.completion_algorithm external: { enable: $in.enable_external_completion max_results: $in.max_external_completion_results completer:$in.external_completer } } } } | to nuon | str substring 1..-1
+cargo install gitoxide
+$env.config
+$env.config | do { { ls: { use_ls_colors: $in.use_ls_colors clickable_links: $in.show_clickable_links_in_ls } rm: { always_trash: $in.rm_always_trash } cd: { abbreviations: $in.cd_with_abbreviations } table: { mode: $in.table_mode index_mode: $in.table_index_mode trim: $in.table_trim } history: { max_size: $in.max_history_size sync_on_enter: $in.sync_history_on_enter file_format: $in.history_file_format } completions: { case_sensitive: $in.case_sensitive_completions quick: $in.quick_completions partial: $in.partial_completions algorithm:$in.completion_algorithm external: { enable: $in.enable_external_completion max_results: $in.max_external_completion_results completer:$in.external_completer } } } } | to nuon | str substring 1..-1
+config nu
+cd
+clear
+cd pjs/julia/labce/
+ls
+cp exp2.jl exp3.jl
+rm exp3.jl
+cp note_exp2.jl pn_exp3.jl
+mv note_exp2.jl pn_exp2.jl 
+ls
+hx exp1.jl
+hx exp2.jl
+cd pjs/julia/labce/
+ls
+hx pluto.jl
+hx pn_exp2.jl
+julia pluto.jl
+hx exp2
+hx exp1.jl
+hx exp2.jl
+cd ..
+cd ce/
+ls
+julia list1.jl
+julia 
+julia list1.jl
+cd words/
+ls
+hx random
+cd pjs/python/yolov7play/
+hx .
+rg multi-scale | sk
+ls
+ls **
+cd **.
+cd **.*
+cd **\.*
+cd yolov7/cfg
+ls
+cd deploy/
+ls
+sudo dnf update
+832 * 2
+cd pjs/python/elfotec/smarthair-api/
+code .
+git branch --help
+git branch -c lucca
+git branch
+git switch lucca
+cd ../../yolov7play/
+poetry run python torchtest.py
+poetry env use 3.7.15
+poetry run python torchtest.py
+poetry install
+poetry run python torchtest.py
+python3 etorch/main.py -d run hair_detection_imgs <IMAGE_INPUT_DIR> none <OUPUT_DIR>
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+poetry run python yolov7/detect.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+ls
+ls yolov7/
+poetry run python yolov7/detect.py --weights ./best.pt --conf 0.2 --source ./kaggle_test/kaggle_13/20170525152752000_X60.jpg 
+hx main.py
+hx pyproject.toml
+cd ../elfotec/smarthair-api/
+poetry install
+poetry env use 3.7.15
+poetry install
+poetry add torchvision@0.12.0
+poetry install
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+python3 etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg none ./etorch/tests
+poetry python etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg none ./etorch/tests
+poetry run python etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg none ./etorch/tests
+poetry run python setup.py
+python setup.py install
+python3 setup.py install
+python3 setup.py install --install-dir ./yolov7_custom/
+python3 setup.py --install-dir ./yolov7_custom/ install
+python3 setup.py -d ./yolov7_custom/ install
+python3 setup.py install etorch
+python3 setup.py install
+poetry run python etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg none ./etorch/tests
+poetry install
+poetry run python etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg none ./etorch/tests
+poetry install
+cd etorch/
+poetry init
+cd ..
+pip install setup2poetry
+setup2poetry setup.py
+cd etorch/
+poetry add pytest-runner
+poetry add pytest
+poetry add pytest-flake8
+poetry add pytest-cov
+cd ..
+poetry install
+cd etorch/
+poetry install
+cd ..
+poetry install
+cd etorch/
+poetry build
+poetry env use 3.7.15
+poetry build
+cd ..
+poetry install
+poetry env use 3.7.15
+poetry install
+rm -r /home/lucca/.cache/pypoetry/virtualenvs/smarthair-api-1VZhq-da-py3.7
+poetry env use 3.7.15
+poetry install
+git fetch
+poetry install
+git stash
+git stash --help
+git stash pop
+git stash
+pip install -r requirements.txt
+pip3 install -r requirements.txt
+python3 setup.py install
+git stash pop
+python3 setup.py install
+source /home/lucca/.cache/pypoetry/virtualenvs/smarthair-api-1VZhq-da-py3.7/bin/activate.nu
+python setup.py install
+poetry shell
+ls
+rm poetry.lock
+poetry install
+poetry env use 3.10.4
+hx pyproject.toml
+rm poetry.lock
+poetry env use 3.10.4
+poetry install
+poetry env use 3.10.4
+rm poetry.lock
+poetry env use 3.10.4
+poetry install
+rm poetry.lock
+poetry install
+poetry run python torchtest.py
+poetry run python yolov7/detect.py --weights ./best.pt --conf 0.2 --source ./kaggle_test/kaggle_13/20170525152752000_X60.jpg 
+git stash pop
+poetry env use 3.10.4
+source /home/lucca/.cache/pypoetry/virtualenvs/smarthair-api-1VZhq-da-py3.10/bin/activate.nu
+python setup.py install
+poetry shell
+poetry install
+poetry add wsgi
+poetry add uwsgi
+rm -r /home/lucca/.cache/pypoetry/artifacts/36/8d/68/d3123ad876c937984bb0ec1b6e221287f6b996b4e7761373e1f0aa9b31/uwsgi-2.0.21.tar.gz
+poetry env use 3.10.4
+poetry install
+poetry install\
+poetry install
+cd pjs/python/elfotec/smarthair-api/
+code .
+poetry env use 3.10.8
+poetry install
+rm -r /home/lucca/.cache/pypoetry/artifacts
+poetry install
+gcc
+/usr/bin/gcc
+sudo dnf install python-devel
+sudo dnf install python3-devel-3.10
+sudo dnf install python3-devel-3.10.8
+sudo dnf install python3-devel-3.10.8.fc37.x86_64
+sudo dnf install python-devel-3.10.8
+sudo dnf install python3.10-devel
+poetry install
+source /home/lucca/.cache/pypoetry/virtualenvs/smarthair-api-1VZhq-da-py3.10/bin/activate.nu
+python setup.py install
+poetry shell
+poetry install
+cd etorch/
+poetry install
+poetry env use 3.10.8
+poetry install
+rm -r /home/lucca/.cache/pypoetry/artifacts
+poetry install
+poetry add pycodestyle
+poetry rm pycodestyle
+poetry remove pycodestyle
+poetry install
+cd ..
+poetry install
+cd etorch/
+poetry build
+cd ..
+poetry install
+python3 etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg none ./etorch/tests
+source /home/lucca/.cache/pypoetry/virtualenvs/smarthair-api-1VZhq-da-py3.10/bin/activate.nu
+python3 etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg none ./etorch/tests
+pwd
+python3 etorch/main.py -run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg none ./etorch/tests
+python3 etorch/main.py run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg none ./etorch/tests
+python3 etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg etorch/inference/retinanet_resnet50.py ./etorch/tests
+flask run &
+flask run
+cd etorch/
+poetry install
+poetry build
+cd ..
+poetry install
+cd etorch/
+poetry install
+poetry build
+cd ..
+poetry install
+cd etorch/
+poetry install
+poetry build
+cd ..
+poetry install
+cd
+cd pjs/hugo/panaceia_site/
+cd pan_tella/
+gitui
+code .
+cd themes/tella
+git push origin main
+git branch
+git push origin master
+git commit -m "created section"
+git push origin master
+git merge abort
+git abort merge
+git reset --doft HEAD
+git reset --soft HEAD
+cd pjs/python/elfotec/smarthair-api/
+flask run 
+poetry install
+cd etorch/
+poetry install
+poetry build
+poetry build --help
+cd ..
+poetry install
+code .
+rm poetry.lock
+poetry install
+source /home/lucca/.cache/pypoetry/virtualenvs/smarthair-api-1VZhq-da-py3.10/bin/activate.nu
+python setup.py install
+flask run 
+git pull
+git config pull.rebase false
+git pull
+git reset --soft HEAD~1
+git merge --abort
+git reset --soft HEAD~1
+clear
+poetry shell
+source /home/lucca/.cache/pypoetry/virtualenvs/smarthair-api-1VZhq-da-py3.10/bin/activate.nu
+poetry install
+source /home/lucca/.cache/pypoetry/virtualenvs/smarthair-api-1VZhq-da-py3.10/bin/activate.nu
+python setup.py install
+mkdir output
+python etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg ./model ./output roots
+ls model
+python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+poetry shell
+clear
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+flask run
+poetry install
+flask
+poetry run flask run
+poetry install
+poetry add python-decouple
+poetry check
+poetry install
+poetry run python ./yolov7_custom/yolov7/detect_elfo.py --weights ./yolov7_custom/best.pt --conf 0.2 --source ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg
+poetry add flake8 -G dev
+poetry install
+hx gitgnore
+mv gitgnore .gitgnore
+hx .gitgnore
+mv .gitgnore .gitignore
+hx .gitignore
+hx pyproject.toml
+poetry add black
+poetry run flask run
+python etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg ./model ./output roots
+poetry python etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg ./model ./output roots
+poetry run python etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg ./model ./output roots
+poetry run python etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg ./model ./output strands
+poetry run python etorch/main.py -d run hair_detection_imgs ./yolov7_custom/kaggle_test/kaggle_13/20170525152752000_X60.jpg ./model ./output infections
+cd
+cd pjs/julia/labce/
+2.656 / 8.127
+2.578 / 8.223
+julia pluto.jl
+cd ..
+cd
+cd pjs/hugo/panaceia_site/pan_tella/
+cd
+cd obs/
+ ffmpeg -i `2022-12-08 10-06-17.mkv` -codec copy panaceia_site.mp4
+hugo server -D
+nix-env --help
+nix-env --list
+nix-env -q
+nix-env -u helix
+nix-env -q
+nix-env --help
+clear
+cd pjs/julia/labce/
+cp pn_exp3.jl pn_exp4.jl
+julia pluto.jl
+nix-env -u helix
+nix-env -1
+nix-env -q
+nix-env -u --help
+nix-env -u -A helix
+nix-env -h
+nix-env --help
+nix-env -u
+nix-env -u self
+nix-env --upgrade helix
+nix-env --upgrade
+nix-env -q
+nix-env -u nix
+su -l -s (which nu | get path)
+su
+nix-env -q
+nix-env -qa helix
+nix-env --help
+nix-channel --list
+nix-channel --update
+nix-channel --list
+nix-env --upgrade helix
+nix-env -u
+cd pjs/rust/guessgame/
+ls
+hx .
+clear
+cd
+cd pjs/rust/guessgame/
+hx .
+cd
+cd .config/
+gitui
+cargo install zellij
+git push origin main
+cd 
+clear
+cd pjs/cpp/
+ls
+hx .
+g++ -o test test.cpp
+ls
+test
+./text
+./test
+git reset --soft HEAD~1
+gitui
+git reset --soft HEAD~1
+gitui
+cd
+clear
+clear
+gix clone https://github.com/marcelo3101/sb-montador.git sb_montador
+gh repo clone marcelo3101/sb-montador
+hx auth logn
+hx auth login
+gh auth login
+gix clone https://github.com/marcelo3101/sb-montador.git sb_montador
+ls
+mkdir test
+mkdir testing
+mv test testing/ 
+mv test.cpp testing/ 
+ls
+cd sb_montador/
+code .
+cd pjs/cpp/testing/
+gcc -o test test.cpp
+g++ -o test test.cpp
+test
+./test
+hx .
+cd ../sb_montador/
+hx .
+gcc --version
+hx --health asm
+hx --health assembly
+hx --health
+cargo install nu
+cd
+sudo dnf install openssl-devel
+cargo install --
+cargo install --list
+hx --health
+cargo install taplo-cli --locked
+sudo dnf install bash-language-server
+npm i -g bash-language-server
+sudo npm i -g bash-language-server
+npm install -g npm@9.2.0
+sudo npm install -g npm@9.2.0
+hx --health
+cd UserInstalls/
+ls
+curl https://github.com/artempyanykh/marksman/releases/download/2022-11-25/marksman-linux
+ls
+wget https://github.com/artempyanykh/marksman/releases/download/2022-11-25/marksman-linux
+mv marksman-linux marksman
+ls
+chmod +x marksman
+cd
+cd UserInstalls/
+ls
+hx ~/.config/nushell/env.nu
+hx --health
+hx .config/helix/config.toml
+cd .config/

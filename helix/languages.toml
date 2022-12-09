@@ -8,3 +8,13 @@ file-types = ["md"]
 roots = [".marksman.toml"]
 language-server = { command = "marksman", args=["server"] }
 indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "cpp"
+auto-format = true
+
+[[language]]
+name = "rust"
+
+[language.config]
+checkOnSave = { enable=true, command="clippy" }

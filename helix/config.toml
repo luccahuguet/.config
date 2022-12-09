@@ -1,14 +1,12 @@
 theme = "doom_acario_dark"
 
 [editor]
-line-number = "absolute"
 cursorline = true
 color-modes = true
+bufferline = "always"
 
 [editor.cursor-shape]
 insert = "bar"
-normal = "block"
-select = "underline"
 
 [editor.file-picker]
 hidden = false
@@ -21,5 +19,4 @@ separator = "│"
 
 [editor.indent-guides]
 render = true
-character = "╎"
 

@@ -60,6 +60,25 @@ let-env NU_PLUGIN_DIRS = [
 
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
 # let-env PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
+let-env PATH = (
+      $env.PATH |
+      append '/nix/var/nix/profiles/default/bin' |
+      append '/var/lib/flatpak/exports/bin' |
+      append '/usr/bin/' |
+      append '/usr/local/cuda-11.8/targets/x86_64-linux/lib' |
+      append '/usr/local/cuda-11.8/bin' |
+      append $'($env.HOME)/.nix-profile/bin' |
+      append $'($env.HOME)/.cargo/bin' |
+      append $'($env.HOME)/.local/bin' |
+      append $'($env.HOME)/.cargo/env' |
+      append $'($env.HOME)/UserInstalls/julia/bin' |
+      append $'($env.HOME)/UserInstalls'
+)
+
+let-env LD_LIBRARY_PATH = '/usr/local/cuda-11.8/targets/x86_64-linux/lib'
+let-env EDITOR = "/home/lucca/.nix-profile/bin/hx"
+
+source ~/.cache/starship/init.nu
 
 # mkdir ~/.cache/starship
 # starship init nu | save ~/.cache/starship/init.nu
