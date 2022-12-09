@@ -3,7 +3,5 @@ layout {
             plugin location="zellij:compact-bar"
         }
         pane split_direction="vertical" {
-            pane command="br" size="20%"
-            children
         }
 }
